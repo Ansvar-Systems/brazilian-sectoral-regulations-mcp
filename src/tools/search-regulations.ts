@@ -1,7 +1,7 @@
 import type { Db } from './common.js';
 import type { ToolResponse } from '../utils/metadata.js';
 import { generateResponseMetadata } from '../utils/metadata.js';
-import { clampLimit, escapeFTS5Query } from './common.js';
+import { clampLimit, buildFtsQuery } from './common.js';
 
 interface SearchInput {
   query: string;
@@ -28,6 +28,7 @@ interface SearchResult {
   filters: { sector?: string; regulator?: string };
   total: number;
   provisions: ProvisionRow[];
+  message?: string;
 }
 
 export function searchRegulations(
@@ -35,7 +36,7 @@ export function searchRegulations(
   input: SearchInput,
 ): ToolResponse<SearchResult> {
   const limit = clampLimit(input.limit);
-  const sanitized = escapeFTS5Query(input.query);
+  const sanitized = buildFtsQuery(input.query);
 
   if (!sanitized) {
     return {
@@ -44,6 +45,7 @@ export function searchRegulations(
         filters: { sector: input.sector, regulator: input.regulator },
         total: 0,
         provisions: [],
+        message: 'Query is empty or contains only special characters.',
       },
       _metadata: generateResponseMetadata(),
     };

@@ -25,6 +25,7 @@ export const TOOL_DEFINITIONS = [
       properties: {
         query: {
           type: 'string',
+          minLength: 1,
           description: 'Search query (Portuguese or English)',
         },
         sector: {
