@@ -1,0 +1,94 @@
+schema_version: "1.0"
+mcp_name: "Brazilian Sectoral Regulations MCP"
+category: "domain_intelligence"
+
+sources:
+  - name: "ANATEL - Agencia Nacional de Telecomunicacoes"
+    authority: "ANATEL"
+    official_url: "https://www.anatel.gov.br"
+    api_url: "https://www.anatel.gov.br/legislacao/"
+    retrieval_method: "HTML_SCRAPE"
+    format: "HTML"
+    authentication: "none"
+    update_frequency: "monthly"
+    license:
+      type: "Public domain (Brazilian government)"
+      url: "https://www.anatel.gov.br"
+      summary: "Official regulatory publications are public domain under Brazilian law"
+    coverage:
+      scope: "Resolucoes, normas, and instrucoes normativas related to telecom cybersecurity"
+      item_count: "pending"
+    languages:
+      - "pt"
+
+  - name: "ANS - Agencia Nacional de Saude Suplementar"
+    authority: "ANS"
+    official_url: "https://www.ans.gov.br"
+    api_url: "https://www.ans.gov.br/legislacao/"
+    retrieval_method: "HTML_SCRAPE"
+    format: "HTML"
+    authentication: "none"
+    update_frequency: "monthly"
+    license:
+      type: "Public domain (Brazilian government)"
+      url: "https://www.ans.gov.br"
+      summary: "Official regulatory publications are public domain under Brazilian law"
+    coverage:
+      scope: "Health insurance sector cybersecurity and data protection requirements"
+      item_count: "pending"
+    languages:
+      - "pt"
+
+  - name: "ANVISA - Agencia Nacional de Vigilancia Sanitaria"
+    authority: "ANVISA"
+    official_url: "https://www.anvisa.gov.br"
+    api_url: "https://www.anvisa.gov.br/legislacao/"
+    retrieval_method: "HTML_SCRAPE"
+    format: "HTML"
+    authentication: "none"
+    update_frequency: "monthly"
+    license:
+      type: "Public domain (Brazilian government)"
+      url: "https://www.anvisa.gov.br"
+      summary: "Official regulatory publications are public domain under Brazilian law"
+    coverage:
+      scope: "Health products, pharma, SaMD cybersecurity and certification requirements"
+      item_count: "pending"
+    languages:
+      - "pt"
+
+  - name: "ANEEL - Agencia Nacional de Energia Eletrica"
+    authority: "ANEEL"
+    official_url: "https://www.aneel.gov.br"
+    api_url: "https://www.aneel.gov.br/legislacao/"
+    retrieval_method: "HTML_SCRAPE"
+    format: "HTML"
+    authentication: "none"
+    update_frequency: "monthly"
+    license:
+      type: "Public domain (Brazilian government)"
+      url: "https://www.aneel.gov.br"
+      summary: "Official regulatory publications are public domain under Brazilian law"
+    coverage:
+      scope: "Energy sector cybersecurity requirements and grid security regulations"
+      item_count: "pending"
+    languages:
+      - "pt"
+
+  - name: "ANAC - Agencia Nacional de Aviacao Civil"
+    authority: "ANAC"
+    official_url: "https://www.anac.gov.br"
+    api_url: "https://www.anac.gov.br/legislacao/"
+    retrieval_method: "HTML_SCRAPE"
+    format: "HTML"
+    authentication: "none"
+    update_frequency: "monthly"
+    license:
+      type: "Public domain (Brazilian government)"
+      url: "https://www.anac.gov.br"
+      summary: "Official regulatory publications are public domain under Brazilian law"
+    coverage:
+      scope: "Civil aviation cybersecurity, safety management, and certification requirements"
+      item_count: "pending"
+    languages:
+      - "pt"

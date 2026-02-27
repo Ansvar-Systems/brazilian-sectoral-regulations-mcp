@@ -1,0 +1,30 @@
+# Gitleaks configuration for Brazilian Sectoral Regulations MCP
+# https://github.com/gitleaks/gitleaks
+
+title = "Brazilian Sectoral Regulations MCP - Secret Detection"
+
+[extend]
+# Use default gitleaks rules
+useDefault = true
+
+[allowlist]
+description = "Known false positives and example credentials"
+
+# Example/development tokens in documentation
+regexes = [
+  '''dev-token''',
+  '''example-token''',
+  '''your-token-here''',
+  '''<password>''',
+  '''user:pass''',
+  '''postgres:postgres''',
+]
+
+# Files to skip
+paths = [
+  '''internal/.*''',
+  '''\.dev\.vars$''',
+  '''\.env\.local$''',
+  '''tests/fixtures/.*''',
+  '''examples/.*''',
+]

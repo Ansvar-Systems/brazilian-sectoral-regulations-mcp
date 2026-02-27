@@ -1,0 +1,74 @@
+name: brazilian-sectoral-regulations-mcp
+description: Brazilian sectoral regulations MCP — ANATEL, ANS, ANVISA, ANEEL, and ANAC cybersecurity and compliance requirements
+version: "0.1.0"
+runtime: node
+entrypoint: dist/index.js
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      BRAZILIAN_SECTORAL_DB_PATH:
+        type: string
+        description: "Path to the SQLite database file"
+        default: "data/database.db"
+  commandFunction: |-
+    (config) => ({
+      command: "npx",
+      args: ["-y", "@anthropic-ai/brazilian-sectoral-regulations-mcp"],
+      env: {
+        BRAZILIAN_SECTORAL_DB_PATH: config.BRAZILIAN_SECTORAL_DB_PATH ?? "data/database.db"
+      }
+    })
+
+metadata:
+  author: Ansvar Systems AB
+  license: Apache-2.0
+  homepage: https://github.com/Ansvar-Systems/brazilian-sectoral-regulations-mcp
+  documentation: https://github.com/Ansvar-Systems/brazilian-sectoral-regulations-mcp#readme
+  tags:
+    - brazil
+    - sectoral-regulation
+    - anatel
+    - anvisa
+    - aneel
+    - anac
+    - cybersecurity
+    - compliance
+  category: regulatory
+  languages:
+    - pt
+    - en
+  node_version: ">=18"
+
+tools:
+  - name: search_regulations
+    description: Full-text search across all Brazilian sectoral regulations
+
+  - name: get_provision
+    description: Retrieve a single provision from a specific regulation
+
+  - name: get_cybersecurity_requirements
+    description: Get cybersecurity requirements for a Brazilian sector
+
+  - name: get_certification_requirements
+    description: Get certification and approval requirements for a sector
+
+  - name: get_incident_reporting_rules
+    description: Get sector-specific incident reporting obligations
+
+  - name: get_regulator_info
+    description: Get information about a Brazilian sectoral regulatory authority
+
+  - name: check_applicability
+    description: Determine whether sectoral regulations apply to a business activity
+
+  - name: list_sources
+    description: List data sources with record counts and freshness
+
+  - name: about
+    description: Server metadata and capabilities
+
+  - name: check_data_freshness
+    description: Check data freshness and identify stale sources

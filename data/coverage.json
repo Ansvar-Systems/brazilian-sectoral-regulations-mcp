@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "mcp_name": "Brazilian Sectoral Regulations MCP",
+  "mcp_type": "domain_intelligence",
+  "coverage_date": "2026-02-27",
+  "database_version": "0.1.0",
+  "sources": [
+    {
+      "id": "anatel",
+      "name": "ANATEL",
+      "authority": "Agencia Nacional de Telecomunicacoes",
+      "url": "https://www.anatel.gov.br",
+      "version": "2026-02-27",
+      "item_count": 0,
+      "item_type": "provision",
+      "last_refresh": null,
+      "refresh_frequency": "quarterly",
+      "completeness": "partial",
+      "completeness_note": "Pending initial ingestion"
+    },
+    {
+      "id": "ans",
+      "name": "ANS",
+      "authority": "Agencia Nacional de Saude Suplementar",
+      "url": "https://www.ans.gov.br",
+      "version": "2026-02-27",
+      "item_count": 0,
+      "item_type": "provision",
+      "last_refresh": null,
+      "refresh_frequency": "quarterly",
+      "completeness": "partial",
+      "completeness_note": "Pending initial ingestion"
+    },
+    {
+      "id": "anvisa",
+      "name": "ANVISA",
+      "authority": "Agencia Nacional de Vigilancia Sanitaria",
+      "url": "https://www.anvisa.gov.br",
+      "version": "2026-02-27",
+      "item_count": 0,
+      "item_type": "provision",
+      "last_refresh": null,
+      "refresh_frequency": "quarterly",
+      "completeness": "partial",
+      "completeness_note": "Pending initial ingestion"
+    },
+    {
+      "id": "aneel",
+      "name": "ANEEL",
+      "authority": "Agencia Nacional de Energia Eletrica",
+      "url": "https://www.aneel.gov.br",
+      "version": "2026-02-27",
+      "item_count": 0,
+      "item_type": "provision",
+      "last_refresh": null,
+      "refresh_frequency": "quarterly",
+      "completeness": "partial",
+      "completeness_note": "Pending initial ingestion"
+    },
+    {
+      "id": "anac",
+      "name": "ANAC",
+      "authority": "Agencia Nacional de Aviacao Civil",
+      "url": "https://www.anac.gov.br",
+      "version": "2026-02-27",
+      "item_count": 0,
+      "item_type": "provision",
+      "last_refresh": null,
+      "refresh_frequency": "quarterly",
+      "completeness": "partial",
+      "completeness_note": "Pending initial ingestion"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "initial-ingestion",
+      "description": "No regulations ingested yet for any regulator",
+      "reason": "Server scaffolded, ingestion pipeline pending implementation",
+      "impact": "high",
+      "planned": true,
+      "target_version": "0.2.0"
+    },
+    {
+      "id": "inmetro-standards",
+      "description": "INMETRO technical standards and conformity assessments",
+      "reason": "INMETRO is a standards body, not a sectoral regulator",
+      "impact": "medium",
+      "planned": true,
+      "target_version": "1.1"
+    }
+  ],
+  "tools": [
+    {
+      "name": "search_regulations",
+      "category": "search",
+      "description": "Full-text search across all sectoral regulations",
+      "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
+      "verified": false
+    },
+    {
+      "name": "get_provision",
+      "category": "lookup",
+      "description": "Single provision lookup by regulator, regulation, and article",
+      "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
+      "verified": false
+    },
+    {
+      "name": "get_cybersecurity_requirements",
+      "category": "analysis",
+      "description": "Cybersecurity requirements by sector",
+      "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
+      "verified": false
+    },
+    {
+      "name": "get_certification_requirements",
+      "category": "lookup",
+      "description": "Certification and approval requirements by sector",
+      "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
+      "verified": false
+    },
+    {
+      "name": "get_incident_reporting_rules",
+      "category": "lookup",
+      "description": "Sector-specific incident reporting obligations",
+      "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
+      "verified": false
+    },
+    {
+      "name": "get_regulator_info",
+      "category": "lookup",
+      "description": "Regulatory authority details by sector",
+      "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
+      "verified": false
+    },
+    {
+      "name": "check_applicability",
+      "category": "analysis",
+      "description": "Keyword-based regulation applicability check",
+      "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
+      "verified": false
+    },
+    {
+      "name": "list_sources",
+      "category": "meta",
+      "description": "Data source inventory with record counts",
+      "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
+      "verified": false
+    },
+    {
+      "name": "about",
+      "category": "meta",
+      "description": "Server metadata and capabilities",
+      "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
+      "verified": false
+    },
+    {
+      "name": "check_data_freshness",
+      "category": "meta",
+      "description": "Data freshness status per source",
+      "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
+      "verified": false
+    }
+  ],
+  "summary": {
+    "total_tools": 10,
+    "total_sources": 5,
+    "total_items": 0,
+    "db_size_mb": 0,
+    "known_gaps": 2,
+    "gaps_planned": 2
+  }
+}
