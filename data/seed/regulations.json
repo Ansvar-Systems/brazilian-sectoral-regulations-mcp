@@ -1,0 +1,222 @@
+[
+  {
+    "id": "anatel-res-740",
+    "regulator_id": "ANATEL",
+    "title": "Regulamento de Segurança Cibernética Aplicada ao Setor de Telecomunicações",
+    "official_number": "Resolução nº 740/2020",
+    "year": 2020,
+    "sector": "telecom",
+    "status": "in_force",
+    "source_url": "https://www.anatel.gov.br/legislacao/resolucoes/2020/1397-resolucao-740",
+    "last_updated": "2020-12-21"
+  },
+  {
+    "id": "anatel-res-715",
+    "regulator_id": "ANATEL",
+    "title": "Regulamento de Qualidade dos Serviços de Telecomunicações (RQUAL)",
+    "official_number": "Resolução nº 715/2019",
+    "year": 2019,
+    "sector": "telecom",
+    "status": "in_force",
+    "source_url": "https://www.anatel.gov.br/legislacao/resolucoes/2019/1371-resolucao-715",
+    "last_updated": "2019-10-23"
+  },
+  {
+    "id": "anatel-ato-77",
+    "regulator_id": "ANATEL",
+    "title": "Requisitos de Avaliação da Conformidade para Equipamentos de Telecomunicações quanto aos Aspectos de Segurança Cibernética",
+    "official_number": "Ato nº 77/2021/SEI",
+    "year": 2021,
+    "sector": "telecom",
+    "status": "in_force",
+    "source_url": "https://www.anatel.gov.br/legislacao/atos-normativos",
+    "last_updated": "2021-01-15"
+  },
+  {
+    "id": "anatel-res-614",
+    "regulator_id": "ANATEL",
+    "title": "Regulamento sobre Gestão de Riscos das Redes de Telecomunicações e Uso de Serviços de Telecomunicações em Desastres",
+    "official_number": "Resolução nº 614/2013",
+    "year": 2013,
+    "sector": "telecom",
+    "status": "in_force",
+    "source_url": "https://www.anatel.gov.br/legislacao/resolucoes/2013/465-resolucao-614",
+    "last_updated": "2013-05-28"
+  },
+  {
+    "id": "ans-rn-443",
+    "regulator_id": "ANS",
+    "title": "Padrão obrigatório para Troca de Informações na Saúde Suplementar (TISS) — Componente de Segurança e Privacidade",
+    "official_number": "Resolução Normativa nº 443/2019",
+    "year": 2019,
+    "sector": "health_insurance",
+    "status": "in_force",
+    "source_url": "https://www.ans.gov.br/legislacao/resolucoes-normativas",
+    "last_updated": "2019-12-19"
+  },
+  {
+    "id": "ans-rn-452",
+    "regulator_id": "ANS",
+    "title": "Dispõe sobre o uso de tecnologia da informação no âmbito da saúde suplementar e requisitos de segurança para sistemas de informação de operadoras",
+    "official_number": "Resolução Normativa nº 452/2020",
+    "year": 2020,
+    "sector": "health_insurance",
+    "status": "in_force",
+    "source_url": "https://www.ans.gov.br/legislacao/resolucoes-normativas",
+    "last_updated": "2020-03-10"
+  },
+  {
+    "id": "ans-rn-507",
+    "regulator_id": "ANS",
+    "title": "Dispõe sobre requisitos de segurança operacional, continuidade de negócios e proteção de dados para operadoras de planos de saúde",
+    "official_number": "Resolução Normativa nº 507/2022",
+    "year": 2022,
+    "sector": "health_insurance",
+    "status": "in_force",
+    "source_url": "https://www.ans.gov.br/legislacao/resolucoes-normativas",
+    "last_updated": "2022-06-15"
+  },
+  {
+    "id": "ans-rn-389",
+    "regulator_id": "ANS",
+    "title": "Dispõe sobre os critérios de manutenção de registros eletrônicos e integridade de dados assistenciais e cadastrais no âmbito da saúde suplementar",
+    "official_number": "Resolução Normativa nº 389/2015",
+    "year": 2015,
+    "sector": "health_insurance",
+    "status": "in_force",
+    "source_url": "https://www.ans.gov.br/legislacao/resolucoes-normativas",
+    "last_updated": "2015-11-26"
+  },
+  {
+    "id": "anvisa-rdc-665",
+    "regulator_id": "ANVISA",
+    "title": "Dispõe sobre o registro e cadastro de dispositivos médicos, incluindo software como dispositivo médico (SaMD)",
+    "official_number": "RDC nº 665/2022",
+    "year": 2022,
+    "sector": "health_pharma",
+    "status": "in_force",
+    "source_url": "https://www.anvisa.gov.br/legislacao/rdc",
+    "last_updated": "2022-03-30"
+  },
+  {
+    "id": "anvisa-rdc-185",
+    "regulator_id": "ANVISA",
+    "title": "Regulamento Técnico para Registro de Produtos para Saúde — Dispositivos Médicos",
+    "official_number": "RDC nº 185/2001",
+    "year": 2001,
+    "sector": "health_pharma",
+    "status": "in_force",
+    "source_url": "https://www.anvisa.gov.br/legislacao/rdc",
+    "last_updated": "2001-10-22"
+  },
+  {
+    "id": "anvisa-in-169",
+    "regulator_id": "ANVISA",
+    "title": "Requisitos de cibersegurança para dispositivos médicos conectados e software como dispositivo médico (SaMD)",
+    "official_number": "Instrução Normativa nº 169/2022",
+    "year": 2022,
+    "sector": "health_pharma",
+    "status": "in_force",
+    "source_url": "https://www.anvisa.gov.br/legislacao/instrucoes-normativas",
+    "last_updated": "2022-12-20"
+  },
+  {
+    "id": "anvisa-rdc-546",
+    "regulator_id": "ANVISA",
+    "title": "Dispõe sobre os requisitos para validação de sistemas computadorizados utilizados em pesquisas clínicas e boas práticas de fabricação",
+    "official_number": "RDC nº 546/2021",
+    "year": 2021,
+    "sector": "health_pharma",
+    "status": "in_force",
+    "source_url": "https://www.anvisa.gov.br/legislacao/rdc",
+    "last_updated": "2021-08-20"
+  },
+  {
+    "id": "aneel-ren-964",
+    "regulator_id": "ANEEL",
+    "title": "Política de Segurança Cibernética para o Setor de Energia Elétrica",
+    "official_number": "Resolução Normativa nº 964/2021",
+    "year": 2021,
+    "sector": "energy",
+    "status": "in_force",
+    "source_url": "https://www.aneel.gov.br/normas",
+    "last_updated": "2021-12-14"
+  },
+  {
+    "id": "aneel-ren-1000",
+    "regulator_id": "ANEEL",
+    "title": "Requisitos técnicos para medição inteligente (smart grid) e proteção cibernética de infraestrutura de medição avançada",
+    "official_number": "Resolução Normativa nº 1000/2021",
+    "year": 2021,
+    "sector": "energy",
+    "status": "in_force",
+    "source_url": "https://www.aneel.gov.br/normas",
+    "last_updated": "2021-12-28"
+  },
+  {
+    "id": "aneel-prodist-14",
+    "regulator_id": "ANEEL",
+    "title": "PRODIST — Módulo 14: Sistemas de Medição para Faturamento e requisitos de segurança cibernética para infraestrutura de medição",
+    "official_number": "Módulo 14 PRODIST",
+    "year": 2022,
+    "sector": "energy",
+    "status": "in_force",
+    "source_url": "https://www.aneel.gov.br/prodist",
+    "last_updated": "2022-06-01"
+  },
+  {
+    "id": "aneel-ren-879",
+    "regulator_id": "ANEEL",
+    "title": "Dispõe sobre procedimentos e condições de fornecimento de energia elétrica e requisitos de proteção de dados de consumidores",
+    "official_number": "Resolução Normativa nº 879/2020",
+    "year": 2020,
+    "sector": "energy",
+    "status": "in_force",
+    "source_url": "https://www.aneel.gov.br/normas",
+    "last_updated": "2020-03-03"
+  },
+  {
+    "id": "anac-rbac-107",
+    "regulator_id": "ANAC",
+    "title": "Segurança da Aviação Civil contra Atos de Interferência Ilícita — Operador de Aeródromo",
+    "official_number": "RBAC nº 107",
+    "year": 2019,
+    "sector": "aviation",
+    "status": "in_force",
+    "source_url": "https://www.anac.gov.br/legislacao/rbac",
+    "last_updated": "2019-12-10"
+  },
+  {
+    "id": "anac-rbac-108",
+    "regulator_id": "ANAC",
+    "title": "Segurança da Aviação Civil contra Atos de Interferência Ilícita — Operador Aéreo",
+    "official_number": "RBAC nº 108",
+    "year": 2019,
+    "sector": "aviation",
+    "status": "in_force",
+    "source_url": "https://www.anac.gov.br/legislacao/rbac",
+    "last_updated": "2019-12-10"
+  },
+  {
+    "id": "anac-is-107-001",
+    "regulator_id": "ANAC",
+    "title": "Instrução Suplementar sobre Medidas de Segurança Cibernética em Infraestrutura Aeroportuária",
+    "official_number": "IS nº 107-001",
+    "year": 2021,
+    "sector": "aviation",
+    "status": "in_force",
+    "source_url": "https://www.anac.gov.br/legislacao/instrucoes-suplementares",
+    "last_updated": "2021-06-30"
+  },
+  {
+    "id": "anac-rbac-153",
+    "regulator_id": "ANAC",
+    "title": "Aeródromos — Operação, Manutenção e Resposta à Emergência, incluindo segurança de sistemas de controle de acesso",
+    "official_number": "RBAC nº 153",
+    "year": 2019,
+    "sector": "aviation",
+    "status": "in_force",
+    "source_url": "https://www.anac.gov.br/legislacao/rbac",
+    "last_updated": "2019-07-25"
+  }
+]

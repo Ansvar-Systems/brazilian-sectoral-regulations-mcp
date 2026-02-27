@@ -1,0 +1,128 @@
+[
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "event_type": "Incidente de segurança cibernética com impacto substancial na segurança das redes, proteção de dados pessoais ou prestação de serviços",
+    "timeline": "24 horas da detecção",
+    "channel": "Sistema de notificação da ANATEL (SGME — Sistema de Gestão de Metas e Eventos); e-mail para csirt@anatel.gov.br",
+    "penalties": "Multa de até R$ 50 milhões por infração; sanções previstas no Regulamento de Fiscalização (Resolução nº 589/2012)",
+    "legal_basis": "Resolução nº 740/2020, Art. 6"
+  },
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "event_type": "Interrupção de serviço de telecomunicações que afete área com mais de 50.000 acessos ou com duração superior a 30 minutos em infraestrutura crítica",
+    "timeline": "30 minutos da detecção para notificação inicial; relatório completo em 5 dias úteis",
+    "channel": "Sistema SGME da ANATEL; contato com a Superintendência de Fiscalização",
+    "penalties": "Multa proporcional ao número de acessos afetados e duração da interrupção; possível instauração de processo administrativo",
+    "legal_basis": "Resolução nº 614/2013, Art. 4; Resolução nº 715/2019"
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "event_type": "Incidente de segurança que comprometa dados pessoais ou dados sensíveis de saúde de beneficiários",
+    "timeline": "48 horas da detecção",
+    "channel": "Sistema eletrônico de notificação da ANS; comunicação à ANPD conforme Art. 48 da LGPD",
+    "penalties": "Multa de até R$ 1.000.000 por infração; suspensão da comercialização de novos planos; regime de direção técnica",
+    "legal_basis": "RN nº 443/2019, Art. 12; RN nº 507/2022"
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "event_type": "Indisponibilidade de sistemas críticos de autorização ou atendimento assistencial por período superior a 4 horas",
+    "timeline": "Notificação imediata à ANS; relatório de causa raiz em 10 dias úteis",
+    "channel": "Canal de comunicação institucional da ANS; Disque ANS (0800 701 9656)",
+    "penalties": "Multa administrativa; obrigação de ressarcimento a beneficiários prejudicados; possível instauração de procedimento administrativo",
+    "legal_basis": "RN nº 507/2022, Art. 7"
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "event_type": "Falha no padrão TISS que resulte em perda de integridade de transações de guias e autorizações",
+    "timeline": "24 horas da detecção",
+    "channel": "Sistema de notificação TISS da ANS",
+    "penalties": "Multa por descumprimento do padrão TISS; obrigação de correção e reprocessamento de transações",
+    "legal_basis": "RN nº 443/2019, Art. 8"
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "event_type": "Vulnerabilidade de segurança cibernética em dispositivo médico que represente risco à saúde do paciente",
+    "timeline": "72 horas da confirmação da vulnerabilidade",
+    "channel": "Sistema NOTIVISA (Sistema Nacional de Notificações para a Vigilância Sanitária); e-mail notificacao@anvisa.gov.br",
+    "penalties": "Suspensão do registro; ação de campo corretiva (recall); multa por omissão de notificação conforme Lei nº 6.437/1977",
+    "legal_basis": "RDC nº 665/2022, Art. 22; IN nº 169/2022, Art. 7"
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "event_type": "Incidente adverso relacionado a software como dispositivo médico (SaMD) que cause ou possa causar dano ao paciente",
+    "timeline": "24 horas para eventos graves (morte ou risco de morte); 72 horas para outros eventos",
+    "channel": "Sistema NOTIVISA; comunicação direta à GGTPS (Gerência-Geral de Tecnologia de Produtos para Saúde)",
+    "penalties": "Suspensão ou cancelamento do registro; recall; multa; interdição cautelar; responsabilização civil e criminal do fabricante",
+    "legal_basis": "RDC nº 665/2022; IN nº 169/2022"
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "event_type": "Violação de integridade de dados em sistemas computadorizados GxP (Boas Práticas de Fabricação/Laboratório/Clínicas)",
+    "timeline": "Investigação interna em até 30 dias; notificação à ANVISA se afetar a qualidade, segurança ou eficácia do produto",
+    "channel": "Sistema de peticionamento eletrônico da ANVISA; durante inspeção de BPF",
+    "penalties": "Advertência; multa; suspensão de autorização de funcionamento; apreensão de lotes afetados",
+    "legal_basis": "RDC nº 546/2021; RDC nº 658/2022 (BPF)"
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "event_type": "Incidente cibernético com impacto operacional em geração, transmissão ou distribuição de energia elétrica",
+    "timeline": "1 hora da detecção",
+    "channel": "CERT do setor elétrico (CTIR-E); sistema de notificação da ANEEL; Operador Nacional do Sistema Elétrico (ONS)",
+    "penalties": "Multa de até 2% do faturamento anual da concessionária; abertura de processo administrativo; agravamento em caso de reincidência",
+    "legal_basis": "REN nº 964/2021, Art. 7"
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "event_type": "Incidente cibernético sem impacto operacional direto mas que comprometa a segurança da infraestrutura de TI ou TO",
+    "timeline": "24 horas da detecção",
+    "channel": "CERT do setor elétrico (CTIR-E); relatório via sistema eletrônico da ANEEL",
+    "penalties": "Multa administrativa; obrigação de apresentar plano de remediação; monitoramento reforçado pela ANEEL",
+    "legal_basis": "REN nº 964/2021, Art. 7"
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "event_type": "Comprometimento de dados de consumo de energia coletados por medidores inteligentes (smart grid)",
+    "timeline": "48 horas da detecção; notificação à ANPD conforme LGPD em paralelo",
+    "channel": "Sistema de notificação da ANEEL; ANPD; comunicação ao consumidor afetado",
+    "penalties": "Multa administrativa; obrigação de notificação individualizada a consumidores; medidas corretivas impostas pela ANEEL e ANPD",
+    "legal_basis": "REN nº 1000/2021, Art. 7; LGPD Art. 48"
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "event_type": "Incidente cibernético que comprometa a segurança de operações aeroportuárias ou sistemas de controle de acesso",
+    "timeline": "Notificação imediata ao CENIPA (Centro de Investigação e Prevenção de Acidentes Aeronáuticos) e ANAC; relatório detalhado em 72 horas",
+    "channel": "Sistema CENIPA; canal de segurança operacional da ANAC; CERT.br",
+    "penalties": "Suspensão do certificado operacional; multa; imposição de medidas de segurança adicionais; possível interdição de áreas do aeródromo",
+    "legal_basis": "RBAC 107, 107.19; IS 107-001, 5.5"
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "event_type": "Vazamento ou acesso não autorizado a dados de passageiros (PNR, API) sob responsabilidade do operador aéreo",
+    "timeline": "48 horas da detecção; notificação à ANPD em paralelo",
+    "channel": "Sistema de notificação da ANAC; ANPD; comunicação aos passageiros afetados quando aplicável",
+    "penalties": "Multa administrativa; sanções conforme LGPD; possível suspensão de autorização de operação em casos graves",
+    "legal_basis": "RBAC 108, 108.11; LGPD Art. 48"
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "event_type": "Comprometimento de sistemas de despacho de voo, EFB ou interfaces com navegação aérea",
+    "timeline": "Notificação imediata ao CENIPA e DECEA (Departamento de Controle do Espaço Aéreo); relatório em 24 horas",
+    "channel": "CENIPA; DECEA; sistema de segurança operacional da ANAC",
+    "penalties": "Suspensão de operações; revisão do COA (Certificado de Operador Aéreo); multa; possível instauração de investigação de segurança operacional",
+    "legal_basis": "RBAC 108, 108.15"
+  }
+]

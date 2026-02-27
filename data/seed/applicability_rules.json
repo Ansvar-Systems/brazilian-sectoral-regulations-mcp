@@ -1,0 +1,194 @@
+[
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "activity_pattern": "prestação de serviços de telecomunicações de interesse coletivo com mais de 5.000 acessos",
+    "applies": 1,
+    "conditions": "Aplica-se integralmente a prestadoras de SCM, STFC e SMP com mais de 5.000 acessos. Prestadoras com menos de 5.000 acessos estão sujeitas a regras simplificadas.",
+    "legal_basis": "Resolução nº 740/2020, Art. 2"
+  },
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "activity_pattern": "fabricação ou importação de equipamentos de telecomunicações para comercialização no Brasil",
+    "applies": 1,
+    "conditions": "Equipamentos devem ser submetidos à avaliação de conformidade (homologação) incluindo requisitos de segurança cibernética antes da comercialização.",
+    "legal_basis": "Ato nº 77/2021"
+  },
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "activity_pattern": "provedor de aplicações de internet (OTT, streaming, cloud)",
+    "applies": 0,
+    "conditions": "Provedores de aplicações de internet não são prestadores de serviço de telecomunicações e não estão sujeitos diretamente à Resolução 740. Podem estar sujeitos ao Marco Civil da Internet e LGPD.",
+    "legal_basis": "Lei nº 12.965/2014 (Marco Civil); Resolução nº 740/2020, Art. 2"
+  },
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "activity_pattern": "operadora de rede virtual (MVNO) de serviço móvel pessoal",
+    "applies": 1,
+    "conditions": "MVNOs autorizadas pela ANATEL estão sujeitas às obrigações de segurança cibernética, podendo compartilhar infraestrutura com a operadora hospedeira.",
+    "legal_basis": "Resolução nº 740/2020; Resolução nº 550/2010 (MVNO)"
+  },
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "activity_pattern": "provedor de serviço de internet (ISP) com infraestrutura própria",
+    "applies": 1,
+    "conditions": "ISPs que prestam Serviço de Comunicação Multimídia (SCM) com mais de 5.000 acessos estão plenamente sujeitos às obrigações de segurança cibernética.",
+    "legal_basis": "Resolução nº 740/2020, Art. 2"
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "activity_pattern": "operação de plano de assistência à saúde (plano de saúde)",
+    "applies": 1,
+    "conditions": "Todas as operadoras de planos de saúde registradas na ANS estão sujeitas aos requisitos de segurança da informação, TISS e proteção de dados de beneficiários.",
+    "legal_basis": "Lei nº 9.656/1998; RN nº 507/2022"
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "activity_pattern": "prestação de serviços de saúde (hospital, clínica, laboratório) credenciado por operadora",
+    "applies": 1,
+    "conditions": "Prestadores credenciados devem cumprir o Padrão TISS para troca de informações com operadoras, incluindo requisitos de segurança e privacidade do componente TISS.",
+    "legal_basis": "RN nº 443/2019"
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "activity_pattern": "desenvolvimento de plataforma de telemedicina para operadoras de saúde",
+    "applies": 1,
+    "conditions": "Plataformas de telemedicina utilizadas por operadoras devem atender a requisitos de criptografia ponta a ponta, autenticação, disponibilidade de 99,5% e conformidade com LGPD e CFM.",
+    "legal_basis": "RN nº 452/2020, Art. 6"
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "activity_pattern": "administradora de benefícios de plano de saúde",
+    "applies": 1,
+    "conditions": "Administradoras de benefícios registradas na ANS estão sujeitas aos requisitos de segurança da informação e proteção de dados de beneficiários, proporcionalmente ao porte.",
+    "legal_basis": "RN nº 507/2022; Lei nº 9.656/1998"
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "activity_pattern": "fabricação ou importação de dispositivo médico conectado em rede",
+    "applies": 1,
+    "conditions": "Dispositivos médicos conectados classes II, III e IV devem cumprir requisitos de cibersegurança no registro e pós-mercado, incluindo modelo de ameaças, SBOM e gestão de vulnerabilidades.",
+    "legal_basis": "RDC nº 665/2022; IN nº 169/2022"
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "activity_pattern": "desenvolvimento de software como dispositivo médico (SaMD) para diagnóstico ou tratamento",
+    "applies": 1,
+    "conditions": "SaMD que realiza diagnóstico, tratamento, prevenção ou monitoramento de condições de saúde deve ser registrado na ANVISA, classificado conforme risco e atender a requisitos de cibersegurança.",
+    "legal_basis": "RDC nº 665/2022, Art. 15; IN nº 169/2022"
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "activity_pattern": "aplicativo de saúde e bem-estar sem finalidade médica (fitness, wellness)",
+    "applies": 0,
+    "conditions": "Aplicativos de bem-estar geral sem finalidade médica específica (contagem de passos, dieta, meditação) não são considerados dispositivos médicos e não estão sujeitos ao registro na ANVISA.",
+    "legal_basis": "RDC nº 665/2022, definição de dispositivo médico; orientação ANVISA sobre SaMD"
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "activity_pattern": "fabricação farmacêutica com sistemas computadorizados para controle de qualidade e produção",
+    "applies": 1,
+    "conditions": "Sistemas computadorizados utilizados em BPF devem ser validados conforme RDC 546/2021, atendendo aos princípios ALCOA+ de integridade de dados.",
+    "legal_basis": "RDC nº 546/2021"
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "activity_pattern": "importação e distribuição de dispositivos médicos no mercado brasileiro",
+    "applies": 1,
+    "conditions": "Importadores e distribuidores devem garantir que os dispositivos possuem registro ou cadastro na ANVISA e manter sistema de vigilância pós-mercado em coordenação com o fabricante.",
+    "legal_basis": "RDC nº 665/2022"
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "activity_pattern": "geração, transmissão ou distribuição de energia elétrica sob concessão, permissão ou autorização",
+    "applies": 1,
+    "conditions": "Todos os agentes do setor elétrico (geradores, transmissoras, distribuidoras) estão sujeitos à política de segurança cibernética e obrigações de notificação de incidentes.",
+    "legal_basis": "REN nº 964/2021, Art. 1"
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "activity_pattern": "operação do sistema elétrico nacional (ONS) ou comercialização de energia (CCEE)",
+    "applies": 1,
+    "conditions": "O ONS e a CCEE estão sujeitos à política de segurança cibernética do setor elétrico, com obrigações específicas de proteção de sistemas de coordenação e comercialização.",
+    "legal_basis": "REN nº 964/2021, Art. 1"
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "activity_pattern": "implantação de infraestrutura de medição inteligente (smart grid) em rede de distribuição",
+    "applies": 1,
+    "conditions": "Medidores inteligentes e infraestrutura de medição avançada devem atender a requisitos de segurança cibernética e proteção de dados de consumo conforme LGPD.",
+    "legal_basis": "REN nº 1000/2021; PRODIST Módulo 14"
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "activity_pattern": "geração distribuída de pequeno porte (micro e minigeração fotovoltaica)",
+    "applies": 0,
+    "conditions": "Micro e minigeradores distribuídos (até 5 MW) com conexão à rede de distribuição não estão diretamente sujeitos à REN 964, mas devem seguir os requisitos de medição do PRODIST.",
+    "legal_basis": "REN nº 482/2012; PRODIST Módulo 14"
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "activity_pattern": "fornecimento de equipamentos e software para infraestrutura crítica de energia",
+    "applies": 1,
+    "conditions": "Fornecedores de equipamentos e software para sistemas SCADA/ICS do setor elétrico são avaliados indiretamente pelas obrigações de cadeia de suprimentos dos agentes regulados.",
+    "legal_basis": "REN nº 964/2021, Art. 3, inciso VI"
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "activity_pattern": "operação de aeródromo público com tráfego aéreo regular",
+    "applies": 1,
+    "conditions": "Operadores de aeródromos com certificado operacional devem manter Programa de Segurança (PSA) incluindo proteção cibernética de sistemas eletrônicos.",
+    "legal_basis": "RBAC 107; RBAC 153"
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "activity_pattern": "operação de transporte aéreo regular ou fretamento",
+    "applies": 1,
+    "conditions": "Operadores aéreos com COA devem manter Programa de Segurança (PSOA) incluindo proteção cibernética de sistemas de despacho, EFB e dados de passageiros.",
+    "legal_basis": "RBAC 108"
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "activity_pattern": "fabricação ou operação de aeronave remotamente pilotada (drone) para uso comercial",
+    "applies": 0,
+    "conditions": "Drones são regulados pelo RBAC-E nº 94/2017, com requisitos de segurança próprios. Não estão diretamente sujeitos aos RBAC 107/108, exceto quando operando em áreas aeroportuárias.",
+    "legal_basis": "RBAC-E nº 94/2017"
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "activity_pattern": "desenvolvimento de sistemas de controle de tráfego aéreo ou navegação aérea",
+    "applies": 1,
+    "conditions": "Sistemas de navegação aérea são regulados pelo DECEA, com interação com requisitos de segurança cibernética da ANAC para interfaces com operadores aéreos e aeroportuários.",
+    "legal_basis": "RBAC 108, 108.15; IS 107-001"
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "activity_pattern": "fornecimento de sistemas de entretenimento de bordo (IFE) para aeronaves",
+    "applies": 1,
+    "conditions": "Sistemas IFE devem ser segregados de sistemas aviônicos e atender a requisitos de segurança cibernética para evitar vetores de ataque a sistemas críticos de voo.",
+    "legal_basis": "RBAC 108, 108.15"
+  }
+]

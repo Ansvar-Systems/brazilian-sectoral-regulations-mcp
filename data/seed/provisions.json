@@ -1,0 +1,490 @@
+[
+  {
+    "regulation_id": "anatel-res-740",
+    "regulator_id": "ANATEL",
+    "article_ref": "Art. 1",
+    "title": "Objeto",
+    "content": "Este Regulamento tem por objetivo estabelecer condutas e procedimentos para a promoção da segurança cibernética nas redes e serviços de telecomunicações, incluindo a segurança física e lógica das infraestruturas críticas de telecomunicações.",
+    "topic": "escopo"
+  },
+  {
+    "regulation_id": "anatel-res-740",
+    "regulator_id": "ANATEL",
+    "article_ref": "Art. 2",
+    "title": "Abrangência",
+    "content": "Este Regulamento se aplica a todas as prestadoras de serviços de telecomunicações de interesse coletivo, com mais de 5.000 (cinco mil) acessos, que utilizem recursos de numeração ou endereçamento de redes públicas, bem como às prestadoras de Serviço de Comunicação Multimídia (SCM), Serviço Telefônico Fixo Comutado (STFC) e Serviço Móvel Pessoal (SMP).",
+    "topic": "aplicabilidade"
+  },
+  {
+    "regulation_id": "anatel-res-740",
+    "regulator_id": "ANATEL",
+    "article_ref": "Art. 3",
+    "title": "Definições",
+    "content": "Para os fins deste Regulamento, aplicam-se as seguintes definições: I - Segurança Cibernética: conjunto de práticas, ações e medidas destinadas a preservar a confidencialidade, integridade e disponibilidade das informações, redes e sistemas de telecomunicações; II - Incidente de segurança: qualquer evento adverso, confirmado ou sob suspeita, que comprometa ou tente comprometer a segurança, integridade ou disponibilidade de infraestrutura de telecomunicações; III - Infraestrutura Crítica de Telecomunicações: instalações, equipamentos, redes e sistemas essenciais para a prestação de serviços de telecomunicações cuja interrupção ou destruição teria impacto significativo.",
+    "topic": "definicoes"
+  },
+  {
+    "regulation_id": "anatel-res-740",
+    "regulator_id": "ANATEL",
+    "article_ref": "Art. 4",
+    "title": "Política de Segurança Cibernética",
+    "content": "As prestadoras abrangidas por este Regulamento devem elaborar, implementar e manter Política de Segurança Cibernética compatível com seu porte, perfil de risco e complexidade das operações, contemplando, no mínimo: I - os objetivos de segurança cibernética da prestadora; II - os procedimentos e controles adotados para reduzir vulnerabilidades; III - os controles específicos para proteção de dados pessoais; IV - o tratamento de incidentes; V - as diretrizes para desenvolvimento seguro de sistemas; VI - os mecanismos de disseminação da cultura de segurança cibernética.",
+    "topic": "politica_seguranca"
+  },
+  {
+    "regulation_id": "anatel-res-740",
+    "regulator_id": "ANATEL",
+    "article_ref": "Art. 5",
+    "title": "Gestão de Riscos",
+    "content": "As prestadoras devem implementar processo de gestão de riscos de segurança cibernética, incluindo: I - identificação de ativos críticos e suas vulnerabilidades; II - avaliação periódica de ameaças e riscos; III - definição de medidas de mitigação proporcionais aos riscos identificados; IV - monitoramento contínuo da eficácia das medidas adotadas; V - revisão periódica da avaliação de riscos, em prazo não superior a 12 (doze) meses.",
+    "topic": "gestao_riscos"
+  },
+  {
+    "regulation_id": "anatel-res-740",
+    "regulator_id": "ANATEL",
+    "article_ref": "Art. 6",
+    "title": "Notificação de Incidentes",
+    "content": "As prestadoras devem notificar à Anatel, no prazo máximo de 24 (vinte e quatro) horas, a ocorrência de incidentes de segurança cibernética que afetem de maneira substancial a segurança das redes de telecomunicações, a proteção de dados pessoais dos usuários ou a prestação de serviços. A notificação deve conter: I - descrição do incidente; II - data e hora de detecção; III - serviços e quantidade de usuários afetados; IV - medidas de contenção adotadas; V - previsão de restabelecimento.",
+    "topic": "notificacao_incidentes"
+  },
+  {
+    "regulation_id": "anatel-res-740",
+    "regulator_id": "ANATEL",
+    "article_ref": "Art. 7",
+    "title": "Criptografia e Controle de Acesso",
+    "content": "As prestadoras devem adotar mecanismos de criptografia e controle de acesso lógico para proteção das informações armazenadas e em trânsito em suas redes, utilizando algoritmos e protocolos reconhecidos por padrões internacionais. Devem ser implementados: I - autenticação multifator para acesso a sistemas críticos; II - segregação de funções e privilégios mínimos; III - registro e auditoria de acessos; IV - criptografia de dados pessoais em repouso e em trânsito.",
+    "topic": "criptografia"
+  },
+  {
+    "regulation_id": "anatel-res-740",
+    "regulator_id": "ANATEL",
+    "article_ref": "Art. 8",
+    "title": "Avaliação de Fornecedores",
+    "content": "As prestadoras devem avaliar os riscos de segurança cibernética decorrentes da contratação de equipamentos e sistemas de fornecedores, observando: I - a origem e a cadeia de suprimentos dos equipamentos e softwares; II - a existência de backdoors ou funcionalidades não documentadas; III - a capacidade do fornecedor de fornecer atualizações de segurança; IV - a conformidade do fornecedor com padrões internacionais de segurança.",
+    "topic": "cadeia_suprimentos"
+  },
+  {
+    "regulation_id": "anatel-res-740",
+    "regulator_id": "ANATEL",
+    "article_ref": "Art. 9",
+    "title": "Capacitação e Conscientização",
+    "content": "As prestadoras devem promover programa de capacitação e conscientização em segurança cibernética para seus colaboradores, incluindo: I - treinamento periódico sobre práticas de segurança; II - simulações de incidentes; III - disseminação de alertas de segurança; IV - avaliação da eficácia do programa.",
+    "topic": "treinamento"
+  },
+  {
+    "regulation_id": "anatel-res-740",
+    "regulator_id": "ANATEL",
+    "article_ref": "Art. 10",
+    "title": "Plano de Resposta a Incidentes",
+    "content": "As prestadoras devem elaborar e manter atualizado Plano de Resposta a Incidentes de Segurança Cibernética, que deve conter, no mínimo: I - estrutura organizacional de resposta; II - procedimentos de identificação, contenção, erradicação e recuperação; III - procedimentos de comunicação interna e externa; IV - critérios de classificação de gravidade; V - procedimentos de preservação de evidências para fins de investigação.",
+    "topic": "resposta_incidentes"
+  },
+  {
+    "regulation_id": "anatel-res-715",
+    "regulator_id": "ANATEL",
+    "article_ref": "Art. 3",
+    "title": "Indicadores de Qualidade",
+    "content": "Os indicadores de qualidade dos serviços de telecomunicações compreendem: I - disponibilidade do serviço; II - tempo médio de reparo; III - taxa de reclamações; IV - velocidade de conexão. A prestadora deve publicar os indicadores em seu sítio eletrônico e reportar à Anatel nos prazos definidos.",
+    "topic": "qualidade"
+  },
+  {
+    "regulation_id": "anatel-res-715",
+    "regulator_id": "ANATEL",
+    "article_ref": "Art. 12",
+    "title": "Continuidade do Serviço",
+    "content": "As prestadoras devem manter plano de continuidade de negócios que assegure a prestação ininterrupta dos serviços, incluindo redundância de sistemas críticos, procedimentos de failover e testes periódicos de contingência. O plano deve ser testado no mínimo uma vez por ano.",
+    "topic": "continuidade"
+  },
+  {
+    "regulation_id": "anatel-ato-77",
+    "regulator_id": "ANATEL",
+    "article_ref": "Art. 1",
+    "title": "Requisitos de Segurança para Homologação",
+    "content": "Os equipamentos de telecomunicações submetidos à avaliação da conformidade devem atender aos requisitos de segurança cibernética definidos neste Ato, incluindo: I - mecanismos de atualização segura de firmware; II - proteção contra acesso não autorizado; III - criptografia de comunicações; IV - ausência de senhas padrão em produção; V - capacidade de logging de eventos de segurança.",
+    "topic": "homologacao"
+  },
+  {
+    "regulation_id": "anatel-ato-77",
+    "regulator_id": "ANATEL",
+    "article_ref": "Art. 3",
+    "title": "Avaliação de Vulnerabilidades em Equipamentos",
+    "content": "Os organismos designados para avaliação da conformidade devem realizar testes de vulnerabilidade nos equipamentos, incluindo: I - varredura de portas e serviços desnecessários; II - testes de penetração em interfaces de gerenciamento; III - verificação de integridade de firmware; IV - análise de componentes de software de código aberto e suas vulnerabilidades conhecidas.",
+    "topic": "vulnerabilidades"
+  },
+  {
+    "regulation_id": "anatel-res-614",
+    "regulator_id": "ANATEL",
+    "article_ref": "Art. 4",
+    "title": "Gestão de Riscos de Redes",
+    "content": "As prestadoras de serviços de telecomunicações devem implementar processo contínuo de gestão de riscos que contemple a identificação de ameaças naturais, tecnológicas e humanas que possam afetar a continuidade dos serviços, bem como a definição de medidas preventivas e de contingência proporcionais aos riscos identificados.",
+    "topic": "gestao_riscos"
+  },
+  {
+    "regulation_id": "ans-rn-443",
+    "regulator_id": "ANS",
+    "article_ref": "Art. 1",
+    "title": "Objeto do Padrão TISS",
+    "content": "Esta Resolução Normativa estabelece o Padrão obrigatório para Troca de Informações na Saúde Suplementar (TISS), visando a padronização das informações trocadas entre operadoras de planos de saúde, prestadores de serviços de saúde e a ANS, bem como os requisitos de segurança e privacidade para proteção dessas informações.",
+    "topic": "padrao_tiss"
+  },
+  {
+    "regulation_id": "ans-rn-443",
+    "regulator_id": "ANS",
+    "article_ref": "Art. 5",
+    "title": "Componente de Segurança e Privacidade",
+    "content": "O componente de segurança e privacidade do Padrão TISS estabelece os requisitos para: I - autenticação dos participantes das trocas de informações; II - criptografia das informações em trânsito utilizando protocolos TLS 1.2 ou superior; III - assinatura digital das transações; IV - controle de acesso baseado em perfis; V - registro de auditoria de todas as transações realizadas; VI - proteção de dados pessoais sensíveis de beneficiários conforme a LGPD.",
+    "topic": "seguranca_tiss"
+  },
+  {
+    "regulation_id": "ans-rn-443",
+    "regulator_id": "ANS",
+    "article_ref": "Art. 8",
+    "title": "Integridade das Informações",
+    "content": "As operadoras e prestadores devem implementar controles para garantir a integridade das informações trocadas pelo Padrão TISS, incluindo: I - verificação de checksums ou hashes em todas as transmissões; II - mecanismos de detecção de alteração não autorizada; III - procedimentos de reconciliação periódica; IV - backup das transações por período mínimo de 5 (cinco) anos.",
+    "topic": "integridade_dados"
+  },
+  {
+    "regulation_id": "ans-rn-443",
+    "regulator_id": "ANS",
+    "article_ref": "Art. 12",
+    "title": "Notificação de Incidentes de Segurança",
+    "content": "As operadoras devem notificar a ANS sobre incidentes de segurança que comprometam dados de beneficiários no prazo de 48 (quarenta e oito) horas da detecção, informando: I - natureza e extensão do incidente; II - dados potencialmente comprometidos; III - medidas adotadas para contenção; IV - plano de remediação e comunicação aos beneficiários afetados.",
+    "topic": "notificacao_incidentes"
+  },
+  {
+    "regulation_id": "ans-rn-452",
+    "regulator_id": "ANS",
+    "article_ref": "Art. 2",
+    "title": "Requisitos de Tecnologia da Informação",
+    "content": "As operadoras de planos de saúde devem manter infraestrutura de tecnologia da informação que atenda aos seguintes requisitos mínimos: I - servidores com redundância e alta disponibilidade; II - sistemas de backup automatizado com testes periódicos de restauração; III - ambiente segregado para desenvolvimento e produção; IV - monitoramento contínuo de desempenho e segurança; V - gestão de mudanças documentada.",
+    "topic": "infraestrutura_ti"
+  },
+  {
+    "regulation_id": "ans-rn-452",
+    "regulator_id": "ANS",
+    "article_ref": "Art. 6",
+    "title": "Telemedicina e Saúde Digital",
+    "content": "As operadoras que oferecerem serviços de telemedicina e saúde digital devem garantir: I - criptografia ponta a ponta nas comunicações entre profissional e paciente; II - autenticação segura de profissionais de saúde e beneficiários; III - armazenamento seguro de gravações e prontuários eletrônicos; IV - conformidade com requisitos do CFM e da LGPD; V - disponibilidade mínima de 99,5% para plataformas de telemedicina.",
+    "topic": "telemedicina"
+  },
+  {
+    "regulation_id": "ans-rn-452",
+    "regulator_id": "ANS",
+    "article_ref": "Art. 9",
+    "title": "Proteção de Dados Pessoais de Saúde",
+    "content": "As operadoras devem implementar medidas técnicas e administrativas para proteção de dados pessoais sensíveis de saúde, conforme a LGPD: I - mapeamento de dados pessoais e fluxos de tratamento; II - avaliação de impacto à proteção de dados para novos sistemas; III - anonimização ou pseudonimização de dados para fins estatísticos; IV - controles de acesso granulares por função; V - treinamento de colaboradores sobre proteção de dados.",
+    "topic": "protecao_dados"
+  },
+  {
+    "regulation_id": "ans-rn-507",
+    "regulator_id": "ANS",
+    "article_ref": "Art. 3",
+    "title": "Política de Segurança da Informação",
+    "content": "As operadoras de planos de saúde devem manter Política de Segurança da Informação aprovada pela diretoria, que inclua, no mínimo: I - classificação e tratamento de informações; II - gestão de acessos e identidades; III - segurança física e ambiental; IV - gestão de incidentes de segurança; V - segurança em desenvolvimento de sistemas; VI - gestão de terceiros e fornecedores; VII - conformidade com legislação e regulamentação aplicável.",
+    "topic": "politica_seguranca"
+  },
+  {
+    "regulation_id": "ans-rn-507",
+    "regulator_id": "ANS",
+    "article_ref": "Art. 7",
+    "title": "Continuidade de Negócios",
+    "content": "As operadoras devem manter Plano de Continuidade de Negócios que contemple: I - análise de impacto no negócio (BIA); II - estratégias de recuperação para sistemas críticos; III - RTO (Recovery Time Objective) máximo de 4 horas para sistemas assistenciais; IV - RPO (Recovery Point Objective) máximo de 1 hora; V - testes de continuidade no mínimo semestrais; VI - revisão anual do plano.",
+    "topic": "continuidade"
+  },
+  {
+    "regulation_id": "ans-rn-507",
+    "regulator_id": "ANS",
+    "article_ref": "Art. 10",
+    "title": "Auditoria e Conformidade",
+    "content": "As operadoras com mais de 100.000 (cem mil) beneficiários devem realizar auditoria independente de segurança da informação no mínimo anualmente, cujo relatório deve ser disponibilizado à ANS quando solicitado. A auditoria deve abranger: I - eficácia dos controles de segurança; II - conformidade com a política de segurança; III - testes de penetração em sistemas expostos à internet; IV - revisão de configurações de segurança.",
+    "topic": "auditoria"
+  },
+  {
+    "regulation_id": "ans-rn-389",
+    "regulator_id": "ANS",
+    "article_ref": "Art. 4",
+    "title": "Manutenção de Registros Eletrônicos",
+    "content": "As operadoras devem manter registros eletrônicos de dados assistenciais e cadastrais de beneficiários em sistemas que garantam: I - autenticidade e integridade dos dados; II - trilha de auditoria completa de alterações; III - controle de versões; IV - prazo de retenção mínimo de 20 (vinte) anos para prontuários eletrônicos; V - formato de armazenamento que permita a portabilidade dos dados.",
+    "topic": "registros_eletronicos"
+  },
+  {
+    "regulation_id": "anvisa-rdc-665",
+    "regulator_id": "ANVISA",
+    "article_ref": "Art. 2",
+    "title": "Classificação de Dispositivos Médicos",
+    "content": "Para fins de registro e cadastro, os dispositivos médicos são classificados conforme o risco que representam à saúde do usuário e do paciente, nas seguintes classes: I - Classe I: baixo risco; II - Classe II: médio risco; III - Classe III: alto risco; IV - Classe IV: máximo risco. Software como dispositivo médico (SaMD) segue a classificação de risco conforme sua finalidade pretendida e a condição do paciente.",
+    "topic": "classificacao"
+  },
+  {
+    "regulation_id": "anvisa-rdc-665",
+    "regulator_id": "ANVISA",
+    "article_ref": "Art. 15",
+    "title": "Requisitos de Software para Dispositivos Médicos",
+    "content": "Dispositivos médicos que contenham software ou que sejam software como dispositivo médico (SaMD) devem: I - seguir processo de desenvolvimento conforme IEC 62304; II - realizar gestão de riscos conforme ISO 14971; III - documentar arquitetura de software e interfaces; IV - realizar verificação e validação do software; V - manter rastreabilidade de requisitos; VI - documentar procedimentos de atualização de software.",
+    "topic": "software_dispositivo"
+  },
+  {
+    "regulation_id": "anvisa-rdc-665",
+    "regulator_id": "ANVISA",
+    "article_ref": "Art. 18",
+    "title": "Rotulagem Eletrônica",
+    "content": "A rotulagem de dispositivos médicos com componente de software deve incluir: I - versão do software; II - requisitos mínimos de hardware e sistema operacional; III - compatibilidade com outros dispositivos ou sistemas; IV - instruções para instalação e atualização segura; V - informações sobre conexões de rede e portas utilizadas; VI - requisitos de segurança cibernética para operação segura.",
+    "topic": "rotulagem"
+  },
+  {
+    "regulation_id": "anvisa-rdc-665",
+    "regulator_id": "ANVISA",
+    "article_ref": "Art. 22",
+    "title": "Vigilância Pós-Mercado de Software",
+    "content": "O fabricante de dispositivo médico com software deve implementar sistema de vigilância pós-mercado que inclua: I - monitoramento de vulnerabilidades de segurança cibernética; II - processo de notificação de atualizações de segurança; III - canal de comunicação para relato de incidentes; IV - avaliação periódica de riscos residuais; V - plano de descontinuação e migração.",
+    "topic": "vigilancia_pos_mercado"
+  },
+  {
+    "regulation_id": "anvisa-rdc-185",
+    "regulator_id": "ANVISA",
+    "article_ref": "Art. 6",
+    "title": "Requisitos Essenciais de Segurança e Desempenho",
+    "content": "Os dispositivos médicos devem atender aos requisitos essenciais de segurança e desempenho aplicáveis, incluindo: I - projeto e fabricação para minimização de riscos; II - desempenho conforme finalidade pretendida; III - informações adequadas ao usuário; IV - durabilidade e confiabilidade durante a vida útil; V - compatibilidade biológica quando aplicável; VI - proteção contra riscos elétricos e de radiação.",
+    "topic": "seguranca_desempenho"
+  },
+  {
+    "regulation_id": "anvisa-rdc-185",
+    "regulator_id": "ANVISA",
+    "article_ref": "Art. 10",
+    "title": "Documentação Técnica para Registro",
+    "content": "O dossiê técnico para registro de dispositivo médico deve incluir: I - descrição do dispositivo e sua finalidade pretendida; II - análise de risco conforme norma harmonizada; III - evidências de verificação e validação; IV - instruções de uso; V - relatórios de ensaios de segurança e desempenho; VI - para dispositivos com software: documentação conforme IEC 62304 e relatório de testes de segurança cibernética.",
+    "topic": "documentacao_registro"
+  },
+  {
+    "regulation_id": "anvisa-in-169",
+    "regulator_id": "ANVISA",
+    "article_ref": "Art. 1",
+    "title": "Escopo da Cibersegurança de Dispositivos Médicos",
+    "content": "Esta Instrução Normativa estabelece requisitos de cibersegurança para dispositivos médicos conectados em rede e software como dispositivo médico (SaMD) das classes II, III e IV, aplicáveis ao processo de registro e pós-registro perante a ANVISA.",
+    "topic": "escopo"
+  },
+  {
+    "regulation_id": "anvisa-in-169",
+    "regulator_id": "ANVISA",
+    "article_ref": "Art. 3",
+    "title": "Requisitos de Segurança Cibernética para Registro",
+    "content": "O fabricante deve apresentar, como parte do dossiê de registro, documentação de cibersegurança que demonstre: I - modelo de ameaças do dispositivo; II - arquitetura de segurança e controles implementados; III - processo de gestão de vulnerabilidades; IV - plano de atualização de segurança durante o ciclo de vida; V - resultados de testes de penetração; VI - conformidade com padrões reconhecidos (IEC 81001-5-1, FDA premarket guidance ou equivalente).",
+    "topic": "requisitos_registro"
+  },
+  {
+    "regulation_id": "anvisa-in-169",
+    "regulator_id": "ANVISA",
+    "article_ref": "Art. 5",
+    "title": "Segurança de Comunicação e Dados",
+    "content": "Dispositivos médicos conectados devem implementar: I - criptografia de dados em trânsito (mínimo TLS 1.2); II - criptografia de dados em repouso para informações de saúde; III - autenticação mútua em comunicações máquina-a-máquina; IV - mecanismos de verificação de integridade de dados; V - proteção contra interceptação e replay de comunicações.",
+    "topic": "seguranca_comunicacao"
+  },
+  {
+    "regulation_id": "anvisa-in-169",
+    "regulator_id": "ANVISA",
+    "article_ref": "Art. 7",
+    "title": "Gestão de Vulnerabilidades Pós-Mercado",
+    "content": "O fabricante deve manter processo de gestão de vulnerabilidades que inclua: I - monitoramento contínuo de vulnerabilidades conhecidas nos componentes do dispositivo; II - SBOM (Software Bill of Materials) atualizado; III - processo de avaliação de impacto de novas vulnerabilidades; IV - prazo máximo de 90 dias para correção de vulnerabilidades críticas; V - comunicação coordenada de vulnerabilidades com operadores e ANVISA.",
+    "topic": "gestao_vulnerabilidades"
+  },
+  {
+    "regulation_id": "anvisa-in-169",
+    "regulator_id": "ANVISA",
+    "article_ref": "Art. 9",
+    "title": "Plano de Atualização de Segurança",
+    "content": "O fabricante deve fornecer plano de atualização de segurança que especifique: I - período mínimo de suporte de atualizações de segurança; II - mecanismo seguro de distribuição de atualizações; III - capacidade de rollback em caso de falha de atualização; IV - procedimentos de validação pós-atualização; V - comunicação prévia ao operador sobre atualizações programadas.",
+    "topic": "atualizacao_seguranca"
+  },
+  {
+    "regulation_id": "anvisa-rdc-546",
+    "regulator_id": "ANVISA",
+    "article_ref": "Art. 3",
+    "title": "Validação de Sistemas Computadorizados",
+    "content": "Os sistemas computadorizados utilizados em atividades reguladas pela ANVISA devem ser validados para demonstrar que atendem aos requisitos de integridade de dados, incluindo: I - especificação de requisitos do usuário (URS); II - qualificação de instalação (IQ); III - qualificação operacional (OQ); IV - qualificação de desempenho (PQ); V - plano de manutenção e revalidação periódica.",
+    "topic": "validacao_sistemas"
+  },
+  {
+    "regulation_id": "anvisa-rdc-546",
+    "regulator_id": "ANVISA",
+    "article_ref": "Art. 8",
+    "title": "Integridade de Dados (ALCOA+)",
+    "content": "Os dados gerados, processados e armazenados por sistemas computadorizados devem atender aos princípios ALCOA+: I - Atribuíveis: vinculados à pessoa que gerou ou alterou o dado; II - Legíveis: claramente registrados e permanentemente acessíveis; III - Contemporâneos: registrados no momento da atividade; IV - Originais: preservados na forma original ou cópia certificada; V - Acurados: exatos e completos; VI - Completos: sem exclusão ou omissão de dados; VII - Consistentes: sequência temporal lógica; VIII - Duráveis: armazenados por todo o período de retenção; IX - Disponíveis: acessíveis para revisão durante todo o período de retenção.",
+    "topic": "integridade_dados"
+  },
+  {
+    "regulation_id": "aneel-ren-964",
+    "regulator_id": "ANEEL",
+    "article_ref": "Art. 1",
+    "title": "Objeto",
+    "content": "Esta Resolução estabelece a Política de Segurança Cibernética para o setor de energia elétrica brasileiro, aplicável às concessionárias, permissionárias e autorizadas de geração, transmissão e distribuição de energia elétrica, bem como ao Operador Nacional do Sistema Elétrico (ONS) e à Câmara de Comercialização de Energia Elétrica (CCEE).",
+    "topic": "escopo"
+  },
+  {
+    "regulation_id": "aneel-ren-964",
+    "regulator_id": "ANEEL",
+    "article_ref": "Art. 3",
+    "title": "Política de Segurança Cibernética do Setor Elétrico",
+    "content": "Os agentes do setor de energia elétrica devem elaborar e manter Política de Segurança Cibernética que contemple: I - classificação e proteção de ativos de TI e TO (Tecnologia Operacional); II - gestão de identidades e acessos; III - segurança de redes industriais (SCADA, ICS, DCS); IV - monitoramento e detecção de intrusões; V - gestão de vulnerabilidades e patches; VI - segurança na cadeia de suprimentos; VII - gestão de incidentes cibernéticos; VIII - capacitação de pessoal.",
+    "topic": "politica_seguranca"
+  },
+  {
+    "regulation_id": "aneel-ren-964",
+    "regulator_id": "ANEEL",
+    "article_ref": "Art. 5",
+    "title": "Segurança de Tecnologia Operacional (TO)",
+    "content": "Os agentes devem implementar medidas específicas de segurança cibernética para sistemas de tecnologia operacional, incluindo: I - segmentação de redes de TI e TO; II - controle de acesso físico e lógico a sistemas SCADA e ICS; III - monitoramento de tráfego de rede industrial; IV - restrição de conexões remotas a sistemas operacionais críticos; V - inventário e gestão de firmware de dispositivos industriais; VI - testes de segurança em ambiente de simulação antes de aplicação em produção.",
+    "topic": "seguranca_to"
+  },
+  {
+    "regulation_id": "aneel-ren-964",
+    "regulator_id": "ANEEL",
+    "article_ref": "Art. 7",
+    "title": "Notificação de Incidentes Cibernéticos",
+    "content": "Os agentes do setor elétrico devem notificar o CERT do setor elétrico e a ANEEL sobre incidentes cibernéticos: I - incidentes com impacto operacional: em até 1 (uma) hora; II - incidentes sem impacto operacional: em até 24 (vinte e quatro) horas; III - incidentes envolvendo dados pessoais: conforme prazos da LGPD e ANPD. A notificação deve incluir classificação de gravidade, sistemas afetados, impacto na prestação de serviço e medidas de contenção adotadas.",
+    "topic": "notificacao_incidentes"
+  },
+  {
+    "regulation_id": "aneel-ren-964",
+    "regulator_id": "ANEEL",
+    "article_ref": "Art. 9",
+    "title": "Exercícios de Simulação",
+    "content": "Os agentes devem realizar exercícios periódicos de simulação de incidentes cibernéticos: I - exercícios de mesa (tabletop): no mínimo semestrais; II - exercícios técnicos de resposta: no mínimo anuais; III - exercícios coordenados com o CERT setorial: conforme convocação; IV - registro e análise de lições aprendidas; V - atualização dos planos de resposta com base nos resultados.",
+    "topic": "exercicios_simulacao"
+  },
+  {
+    "regulation_id": "aneel-ren-964",
+    "regulator_id": "ANEEL",
+    "article_ref": "Art. 11",
+    "title": "Conformidade e Relatórios",
+    "content": "Os agentes devem apresentar à ANEEL: I - relatório anual de conformidade com a política de segurança cibernética; II - resultado de auditorias de segurança; III - indicadores de maturidade em segurança cibernética conforme modelo definido pela ANEEL; IV - plano de ação para correção de não conformidades identificadas.",
+    "topic": "conformidade"
+  },
+  {
+    "regulation_id": "aneel-ren-1000",
+    "regulator_id": "ANEEL",
+    "article_ref": "Art. 4",
+    "title": "Medição Inteligente (Smart Grid)",
+    "content": "Os sistemas de medição inteligente devem atender aos seguintes requisitos de segurança cibernética: I - autenticação forte para comunicações entre medidor e sistema de head-end; II - criptografia AES-128 ou superior para dados de medição; III - proteção de integridade por assinatura digital; IV - detecção de adulteração física (tamper detection); V - capacidade de atualização remota segura de firmware; VI - logs de auditoria resistentes à manipulação.",
+    "topic": "smart_grid"
+  },
+  {
+    "regulation_id": "aneel-ren-1000",
+    "regulator_id": "ANEEL",
+    "article_ref": "Art. 7",
+    "title": "Proteção de Dados de Consumo",
+    "content": "Os dados de consumo de energia coletados por medidores inteligentes são considerados dados pessoais e devem ser protegidos conforme a LGPD: I - coleta limitada ao necessário para faturamento e gestão da rede; II - acesso restrito a pessoal autorizado; III - criptografia no armazenamento e transmissão; IV - prazo de retenção definido e cumprido; V - direito de acesso do consumidor aos seus dados granulares.",
+    "topic": "protecao_dados_consumo"
+  },
+  {
+    "regulation_id": "aneel-prodist-14",
+    "regulator_id": "ANEEL",
+    "article_ref": "Seção 14.1",
+    "title": "Sistema de Medição para Faturamento",
+    "content": "O sistema de medição para faturamento (SMF) deve assegurar a confiabilidade das medições e a integridade dos dados de consumo, incluindo: I - calibração periódica conforme normas do INMETRO; II - proteção contra fraudes e desvios; III - comunicação segura entre medidor e sistema central; IV - trilha de auditoria de todas as leituras e alterações; V - redundância de dados para faturamento.",
+    "topic": "sistema_medicao"
+  },
+  {
+    "regulation_id": "aneel-prodist-14",
+    "regulator_id": "ANEEL",
+    "article_ref": "Seção 14.3",
+    "title": "Requisitos de Segurança da Infraestrutura de Medição",
+    "content": "A infraestrutura de medição avançada deve implementar: I - arquitetura de segurança em camadas (defense in depth); II - gestão de chaves criptográficas com HSM (Hardware Security Module) ou equivalente; III - certificados digitais ICP-Brasil para autenticação de dispositivos; IV - proteção contra ataques de negação de serviço (DoS); V - monitoramento de anomalias de comunicação; VI - procedimentos de resposta a incidentes específicos para infraestrutura de medição.",
+    "topic": "seguranca_infraestrutura"
+  },
+  {
+    "regulation_id": "aneel-ren-879",
+    "regulator_id": "ANEEL",
+    "article_ref": "Art. 15",
+    "title": "Proteção de Dados de Consumidores",
+    "content": "As distribuidoras de energia elétrica devem adotar medidas para proteção dos dados pessoais de consumidores, incluindo: I - política de privacidade acessível e clara; II - consentimento para uso de dados além do necessário para prestação do serviço; III - medidas de segurança da informação para proteção de dados cadastrais e de consumo; IV - procedimentos de exclusão de dados após encerramento da relação contratual; V - notificação ao consumidor em caso de incidente de segurança envolvendo seus dados.",
+    "topic": "protecao_dados_consumidor"
+  },
+  {
+    "regulation_id": "anac-rbac-107",
+    "regulator_id": "ANAC",
+    "article_ref": "107.11",
+    "title": "Programa de Segurança de Aeródromo (PSA)",
+    "content": "O operador de aeródromo deve desenvolver, implementar e manter Programa de Segurança de Aeródromo (PSA) que contemple: I - controle de acesso às áreas restritas de segurança; II - inspeção de pessoas, bagagens e cargas; III - segurança de perímetro; IV - monitoramento por circuito fechado de televisão (CFTV); V - sistemas eletrônicos de segurança e sua proteção contra intrusão cibernética; VI - coordenação com órgãos de segurança pública.",
+    "topic": "programa_seguranca_aeroporto"
+  },
+  {
+    "regulation_id": "anac-rbac-107",
+    "regulator_id": "ANAC",
+    "article_ref": "107.15",
+    "title": "Controle de Acesso Eletrônico",
+    "content": "Os sistemas eletrônicos de controle de acesso em aeródromos devem: I - utilizar tecnologia de identificação biométrica ou cartão inteligente com certificado digital; II - manter registro de auditoria de todos os acessos por período mínimo de 5 anos; III - implementar mecanismo de revogação imediata de credenciais; IV - possuir alimentação elétrica de emergência; V - ser protegidos contra ataques cibernéticos que possam comprometer o controle de acesso; VI - passar por testes de segurança anuais.",
+    "topic": "controle_acesso"
+  },
+  {
+    "regulation_id": "anac-rbac-107",
+    "regulator_id": "ANAC",
+    "article_ref": "107.19",
+    "title": "Segurança de Sistemas Críticos",
+    "content": "Os sistemas de tecnologia da informação e comunicação críticos para a segurança da aviação devem: I - ser segregados de redes corporativas e da internet; II - implementar controles de acesso lógico com autenticação forte; III - manter backups em localidade distinta; IV - ter plano de recuperação de desastres com RTO máximo de 2 horas; V - ser submetidos a avaliação de vulnerabilidades no mínimo trimestralmente.",
+    "topic": "seguranca_sistemas"
+  },
+  {
+    "regulation_id": "anac-rbac-108",
+    "regulator_id": "ANAC",
+    "article_ref": "108.7",
+    "title": "Programa de Segurança do Operador Aéreo (PSOA)",
+    "content": "O operador aéreo deve desenvolver e manter Programa de Segurança (PSOA) que inclua: I - verificação de antecedentes de tripulantes e pessoal com acesso a áreas restritas; II - procedimentos de inspeção de bagagens e cargas; III - segurança de cabine e portas de cockpit; IV - proteção de sistemas de comunicação aeronáutica; V - proteção de dados de passageiros (PNR, API) conforme legislação aplicável.",
+    "topic": "programa_seguranca_operador"
+  },
+  {
+    "regulation_id": "anac-rbac-108",
+    "regulator_id": "ANAC",
+    "article_ref": "108.11",
+    "title": "Proteção de Dados de Passageiros",
+    "content": "Os operadores aéreos devem implementar medidas para proteção de dados de passageiros: I - criptografia de dados PNR (Passenger Name Record) em repouso e em trânsito; II - controle de acesso aos sistemas de reserva e check-in; III - compartilhamento de dados API (Advance Passenger Information) apenas com autoridades competentes; IV - retenção de dados conforme prazos legais; V - notificação de incidentes envolvendo dados de passageiros à ANPD e ANAC.",
+    "topic": "protecao_dados_passageiros"
+  },
+  {
+    "regulation_id": "anac-rbac-108",
+    "regulator_id": "ANAC",
+    "article_ref": "108.15",
+    "title": "Segurança Cibernética do Operador Aéreo",
+    "content": "O operador aéreo deve implementar controles de segurança cibernética para: I - sistemas de despacho de voo e planejamento operacional; II - Electronic Flight Bag (EFB) e dispositivos de cabine conectados; III - sistemas de manutenção aeronáutica; IV - interfaces com provedores de navegação aérea; V - sistemas de entretenimento de bordo (IFE) segregados de sistemas aviônicos.",
+    "topic": "seguranca_cibernetica"
+  },
+  {
+    "regulation_id": "anac-is-107-001",
+    "regulator_id": "ANAC",
+    "article_ref": "5.1",
+    "title": "Avaliação de Risco Cibernético Aeroportuário",
+    "content": "O operador de aeródromo deve realizar avaliação de risco cibernético que contemple: I - identificação de ativos de tecnologia da informação e operacional; II - mapeamento de interdependências entre sistemas; III - avaliação de ameaças cibernéticas específicas ao setor de aviação; IV - análise de impacto de incidentes cibernéticos na segurança da aviação; V - definição de medidas de mitigação priorizadas; VI - revisão anual ou após mudanças significativas na infraestrutura.",
+    "topic": "avaliacao_risco"
+  },
+  {
+    "regulation_id": "anac-is-107-001",
+    "regulator_id": "ANAC",
+    "article_ref": "5.3",
+    "title": "Segurança de Sistemas OT Aeroportuários",
+    "content": "Os sistemas de tecnologia operacional aeroportuários (HVAC, iluminação, pontes de embarque, sistemas de bagagem, CFTV) devem: I - ter inventário atualizado de dispositivos e software; II - implementar segmentação de rede entre redes OT e TI; III - monitorar tráfego de rede para detecção de anomalias; IV - restringir acesso remoto a VPN com autenticação multifator; V - aplicar patches de segurança em janelas de manutenção programadas; VI - proteger interfaces de gerenciamento com credenciais individuais.",
+    "topic": "seguranca_ot"
+  },
+  {
+    "regulation_id": "anac-is-107-001",
+    "regulator_id": "ANAC",
+    "article_ref": "5.5",
+    "title": "Plano de Resposta a Incidentes Cibernéticos",
+    "content": "O operador de aeródromo deve manter plano de resposta a incidentes cibernéticos integrado ao plano de emergência do aeródromo, contendo: I - equipe de resposta designada e treinada; II - procedimentos de escalação conforme gravidade; III - comunicação com CERT.br e autoridades setoriais; IV - procedimentos de isolamento de sistemas comprometidos; V - procedimentos operacionais degradados (manual fallback) para operações críticas; VI - preservação de evidências para investigação.",
+    "topic": "resposta_incidentes"
+  },
+  {
+    "regulation_id": "anac-rbac-153",
+    "regulator_id": "ANAC",
+    "article_ref": "153.11",
+    "title": "Segurança de Sistemas de Controle de Acesso ao Aeródromo",
+    "content": "Os sistemas eletrônicos de controle de acesso ao aeródromo devem ser protegidos contra tentativas de intrusão física e cibernética, incluindo: I - hardening de servidores e estações de trabalho; II - segregação da rede de controle de acesso; III - monitoramento 24x7 de tentativas de acesso não autorizado; IV - auditoria de privilégios de administrador no mínimo trimestralmente; V - teste de failover para operação manual em caso de falha do sistema.",
+    "topic": "controle_acesso"
+  },
+  {
+    "regulation_id": "anac-rbac-153",
+    "regulator_id": "ANAC",
+    "article_ref": "153.21",
+    "title": "Segurança de Comunicações Aeroportuárias",
+    "content": "As comunicações entre sistemas de gestão aeroportuária e órgãos de controle de tráfego aéreo devem: I - utilizar canais de comunicação criptografados; II - implementar autenticação mútua entre sistemas; III - manter disponibilidade mínima de 99,99%; IV - possuir canal de comunicação alternativo em caso de falha do canal principal; V - registrar todas as comunicações para fins de investigação.",
+    "topic": "comunicacoes"
+  }
+]
