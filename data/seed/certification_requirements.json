@@ -1,0 +1,155 @@
+[
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "product_type": "telecom_equipment",
+    "certification_name": "Certificação de Conformidade / Homologação ANATEL",
+    "description": "Todos os equipamentos de telecomunicações comercializados ou utilizados no Brasil devem obter certificação de conformidade (homologação) da ANATEL, emitida por Organismo de Certificação Designado (OCD). Inclui avaliação de segurança cibernética conforme Ato nº 77/2021.",
+    "legal_basis": "Resolução nº 715/2019; Ato nº 77/2021",
+    "mandatory": 1
+  },
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "product_type": "radio_equipment",
+    "certification_name": "Certificação de Equipamentos de Radiocomunicação",
+    "description": "Equipamentos de radiocomunicação (roteadores Wi-Fi, estações rádio base, terminais móveis) devem obter certificado de homologação com ensaios de compatibilidade eletromagnética e segurança elétrica, além de requisitos de segurança cibernética.",
+    "legal_basis": "Resolução nº 715/2019; Ato nº 77/2021",
+    "mandatory": 1
+  },
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "product_type": "service_provider",
+    "certification_name": "Outorga de Serviço de Telecomunicações",
+    "description": "Prestadoras de serviços de telecomunicações devem obter outorga (concessão, permissão ou autorização) da ANATEL, demonstrando capacidade técnica, econômica e cumprimento das obrigações de segurança cibernética.",
+    "legal_basis": "Lei nº 9.472/1997 (LGT); Resolução nº 740/2020",
+    "mandatory": 1
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "product_type": "health_plan_operator",
+    "certification_name": "Registro de Operadora na ANS",
+    "description": "Operadoras de planos de saúde devem obter registro na ANS para operar no mercado de saúde suplementar, demonstrando capacidade econômico-financeira, rede assistencial e conformidade com requisitos de tecnologia e segurança.",
+    "legal_basis": "Lei nº 9.656/1998; RN nº 507/2022",
+    "mandatory": 1
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "product_type": "health_information_system",
+    "certification_name": "Conformidade com Padrão TISS",
+    "description": "Sistemas de informação utilizados para troca de dados entre operadoras e prestadores devem estar em conformidade com o Padrão TISS, incluindo os componentes de segurança, privacidade e conteúdo informacional.",
+    "legal_basis": "RN nº 443/2019",
+    "mandatory": 1
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "product_type": "telemedicine_platform",
+    "certification_name": "Conformidade de Plataforma de Telemedicina",
+    "description": "Plataformas de telemedicina utilizadas por operadoras devem demonstrar conformidade com requisitos de criptografia ponta a ponta, autenticação segura, disponibilidade mínima de 99,5% e conformidade com LGPD e CFM.",
+    "legal_basis": "RN nº 452/2020, Art. 6",
+    "mandatory": 1
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "product_type": "medical_device",
+    "certification_name": "Registro de Dispositivo Médico na ANVISA",
+    "description": "Dispositivos médicos classes II, III e IV devem obter registro na ANVISA, com dossiê técnico incluindo análise de risco (ISO 14971), evidências de verificação e validação, e documentação de segurança cibernética para dispositivos conectados.",
+    "legal_basis": "RDC nº 665/2022; RDC nº 185/2001",
+    "mandatory": 1
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "product_type": "samd",
+    "certification_name": "Registro de Software como Dispositivo Médico (SaMD)",
+    "description": "Software como Dispositivo Médico (SaMD) deve obter registro na ANVISA conforme classificação de risco, com documentação IEC 62304, modelo de ameaças, testes de penetração e plano de gestão de vulnerabilidades.",
+    "legal_basis": "RDC nº 665/2022, Art. 15; IN nº 169/2022",
+    "mandatory": 1
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "product_type": "medical_device_class_i",
+    "certification_name": "Cadastro de Dispositivo Médico Classe I",
+    "description": "Dispositivos médicos classe I (baixo risco) devem ser cadastrados na ANVISA, com processo simplificado que não exige dossiê técnico completo, mas requer declaração de conformidade do fabricante.",
+    "legal_basis": "RDC nº 665/2022",
+    "mandatory": 1
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "product_type": "computerized_system",
+    "certification_name": "Validação de Sistemas Computadorizados (CSV)",
+    "description": "Sistemas computadorizados utilizados em pesquisa clínica e BPF devem ser validados conforme GAMP 5, com qualificação de instalação, operação e desempenho (IQ/OQ/PQ) e conformidade com princípios ALCOA+.",
+    "legal_basis": "RDC nº 546/2021",
+    "mandatory": 1
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "product_type": "electricity_concessionaire",
+    "certification_name": "Conformidade com Política de Segurança Cibernética do Setor Elétrico",
+    "description": "Concessionárias, permissionárias e autorizadas devem demonstrar conformidade com a política de segurança cibernética, incluindo relatório anual de conformidade e indicadores de maturidade.",
+    "legal_basis": "REN nº 964/2021, Art. 11",
+    "mandatory": 1
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "product_type": "smart_meter",
+    "certification_name": "Certificação de Medidor Inteligente",
+    "description": "Medidores inteligentes devem atender a requisitos de segurança cibernética (autenticação, criptografia AES-128+, detecção de adulteração) além de requisitos metrológicos do INMETRO, antes de implantação nas redes de distribuição.",
+    "legal_basis": "REN nº 1000/2021; PRODIST Módulo 14",
+    "mandatory": 1
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "product_type": "scada_system",
+    "certification_name": "Avaliação de Segurança de Sistemas SCADA/ICS",
+    "description": "Sistemas de controle supervisório (SCADA) e sistemas de controle industrial (ICS) utilizados no setor elétrico devem passar por avaliação de segurança cibernética, incluindo testes de segmentação, controle de acesso e monitoramento.",
+    "legal_basis": "REN nº 964/2021, Art. 5",
+    "mandatory": 1
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "product_type": "airport_operator",
+    "certification_name": "Certificado Operacional de Aeródromo",
+    "description": "Operadores de aeródromos devem obter certificado operacional da ANAC, demonstrando conformidade com requisitos de segurança incluindo proteção cibernética de sistemas eletrônicos e controle de acesso.",
+    "legal_basis": "RBAC 107; RBAC 153",
+    "mandatory": 1
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "product_type": "air_operator",
+    "certification_name": "Certificado de Operador Aéreo (COA)",
+    "description": "Operadores aéreos devem obter Certificado de Operador Aéreo da ANAC, incluindo demonstração de Programa de Segurança (PSOA) que contemple proteção de sistemas de despacho, EFB e dados de passageiros.",
+    "legal_basis": "RBAC 108",
+    "mandatory": 1
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "product_type": "access_control_system",
+    "certification_name": "Certificação de Sistema de Controle de Acesso Aeroportuário",
+    "description": "Sistemas eletrônicos de controle de acesso em aeródromos devem atender a requisitos de segurança cibernética, incluindo biometria ou certificado digital, proteção contra ataques e testes de segurança anuais.",
+    "legal_basis": "RBAC 107, 107.15",
+    "mandatory": 1
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "product_type": "efb_device",
+    "certification_name": "Aprovação de Electronic Flight Bag (EFB)",
+    "description": "Dispositivos Electronic Flight Bag (EFB) utilizados em operações de voo devem ser aprovados pela ANAC, com avaliação de segurança cibernética para garantir que não comprometam sistemas aviônicos.",
+    "legal_basis": "RBAC 108, 108.15",
+    "mandatory": 1
+  }
+]

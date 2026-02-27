@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ANATEL",
+    "name": "ANATEL",
+    "full_name": "Agência Nacional de Telecomunicações",
+    "sector": "telecom",
+    "website": "https://www.anatel.gov.br",
+    "enforcement_powers": "Multas de até R$ 50 milhões, suspensão de serviços, cassação de outorga, apreensão de equipamentos não homologados"
+  },
+  {
+    "id": "ANS",
+    "name": "ANS",
+    "full_name": "Agência Nacional de Saúde Suplementar",
+    "sector": "health_insurance",
+    "website": "https://www.ans.gov.br",
+    "enforcement_powers": "Multas administrativas, suspensão de comercialização de planos, regime de direção técnica ou fiscal, liquidação extrajudicial de operadoras"
+  },
+  {
+    "id": "ANVISA",
+    "name": "ANVISA",
+    "full_name": "Agência Nacional de Vigilância Sanitária",
+    "sector": "health_pharma",
+    "website": "https://www.anvisa.gov.br",
+    "enforcement_powers": "Apreensão e inutilização de produtos, suspensão de registro, interdição de estabelecimentos, multas, cancelamento de autorização de funcionamento"
+  },
+  {
+    "id": "ANEEL",
+    "name": "ANEEL",
+    "full_name": "Agência Nacional de Energia Elétrica",
+    "sector": "energy",
+    "website": "https://www.aneel.gov.br",
+    "enforcement_powers": "Multas de até 2% do faturamento anual, intervenção administrativa, caducidade de concessão, revisão tarifária extraordinária"
+  },
+  {
+    "id": "ANAC",
+    "name": "ANAC",
+    "full_name": "Agência Nacional de Aviação Civil",
+    "sector": "aviation",
+    "website": "https://www.anac.gov.br",
+    "enforcement_powers": "Multas, suspensão ou cassação de certificados e autorizações, restrição de operações, interdição de aeronaves e aeródromos"
+  }
+]

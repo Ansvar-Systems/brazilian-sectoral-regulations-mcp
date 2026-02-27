@@ -11,12 +11,12 @@
       "authority": "Agencia Nacional de Telecomunicacoes",
       "url": "https://www.anatel.gov.br",
       "version": "2026-02-27",
-      "item_count": 0,
+      "item_count": 14,
       "item_type": "provision",
-      "last_refresh": null,
+      "last_refresh": "2026-02-27",
       "refresh_frequency": "quarterly",
-      "completeness": "partial",
-      "completeness_note": "Pending initial ingestion"
+      "completeness": "complete",
+      "completeness_note": "5 regulations, 14 provisions ingested"
     },
     {
       "id": "ans",
@@ -24,12 +24,12 @@
       "authority": "Agencia Nacional de Saude Suplementar",
       "url": "https://www.ans.gov.br",
       "version": "2026-02-27",
-      "item_count": 0,
+      "item_count": 12,
       "item_type": "provision",
-      "last_refresh": null,
+      "last_refresh": "2026-02-27",
       "refresh_frequency": "quarterly",
-      "completeness": "partial",
-      "completeness_note": "Pending initial ingestion"
+      "completeness": "complete",
+      "completeness_note": "4 regulations, 12 provisions ingested"
     },
     {
       "id": "anvisa",
@@ -37,12 +37,12 @@
       "authority": "Agencia Nacional de Vigilancia Sanitaria",
       "url": "https://www.anvisa.gov.br",
       "version": "2026-02-27",
-      "item_count": 0,
+      "item_count": 13,
       "item_type": "provision",
-      "last_refresh": null,
+      "last_refresh": "2026-02-27",
       "refresh_frequency": "quarterly",
-      "completeness": "partial",
-      "completeness_note": "Pending initial ingestion"
+      "completeness": "complete",
+      "completeness_note": "4 regulations, 13 provisions ingested"
     },
     {
       "id": "aneel",
@@ -50,12 +50,12 @@
       "authority": "Agencia Nacional de Energia Eletrica",
       "url": "https://www.aneel.gov.br",
       "version": "2026-02-27",
-      "item_count": 0,
+      "item_count": 12,
       "item_type": "provision",
-      "last_refresh": null,
+      "last_refresh": "2026-02-27",
       "refresh_frequency": "quarterly",
-      "completeness": "partial",
-      "completeness_note": "Pending initial ingestion"
+      "completeness": "complete",
+      "completeness_note": "4 regulations, 12 provisions ingested"
     },
     {
       "id": "anac",
@@ -63,23 +63,15 @@
       "authority": "Agencia Nacional de Aviacao Civil",
       "url": "https://www.anac.gov.br",
       "version": "2026-02-27",
-      "item_count": 0,
+      "item_count": 10,
       "item_type": "provision",
-      "last_refresh": null,
+      "last_refresh": "2026-02-27",
       "refresh_frequency": "quarterly",
-      "completeness": "partial",
-      "completeness_note": "Pending initial ingestion"
+      "completeness": "complete",
+      "completeness_note": "3 regulations, 10 provisions ingested"
     }
   ],
   "gaps": [
-    {
-      "id": "initial-ingestion",
-      "description": "No regulations ingested yet for any regulator",
-      "reason": "Server scaffolded, ingestion pipeline pending implementation",
-      "impact": "high",
-      "planned": true,
-      "target_version": "0.2.0"
-    },
     {
       "id": "sub-regulatory-guidance",
       "description": "Sub-regulatory guidance documents (orientacoes, notas tecnicas, pareceres) not yet covered",
@@ -111,78 +103,83 @@
       "category": "search",
       "description": "Full-text search across all sectoral regulations",
       "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
-      "verified": false
+      "verified": true
     },
     {
       "name": "get_provision",
       "category": "lookup",
       "description": "Single provision lookup by regulator, regulation, and article",
       "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
-      "verified": false
+      "verified": true
     },
     {
       "name": "get_cybersecurity_requirements",
       "category": "analysis",
       "description": "Cybersecurity requirements by sector",
       "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
-      "verified": false
+      "verified": true
     },
     {
       "name": "get_certification_requirements",
       "category": "lookup",
       "description": "Certification and approval requirements by sector",
       "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
-      "verified": false
+      "verified": true
     },
     {
       "name": "get_incident_reporting_rules",
       "category": "lookup",
       "description": "Sector-specific incident reporting obligations",
       "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
-      "verified": false
+      "verified": true
     },
     {
       "name": "get_regulator_info",
       "category": "lookup",
       "description": "Regulatory authority details by sector",
       "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
-      "verified": false
+      "verified": true
     },
     {
       "name": "check_applicability",
       "category": "analysis",
       "description": "Keyword-based regulation applicability check",
       "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
-      "verified": false
+      "verified": true
     },
     {
       "name": "list_sources",
       "category": "meta",
       "description": "Data source inventory with record counts",
       "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
-      "verified": false
+      "verified": true
     },
     {
       "name": "about",
       "category": "meta",
       "description": "Server metadata and capabilities",
       "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
-      "verified": false
+      "verified": true
     },
     {
       "name": "check_data_freshness",
       "category": "meta",
       "description": "Data freshness status per source",
       "data_sources": ["anatel", "ans", "anvisa", "aneel", "anac"],
-      "verified": false
+      "verified": true
     }
   ],
   "summary": {
     "total_tools": 10,
     "total_sources": 5,
-    "total_items": 0,
+    "total_regulations": 20,
+    "total_items": 61,
+    "cybersecurity_requirements": 39,
+    "certification_requirements": 17,
+    "incident_reporting_rules": 14,
+    "applicability_rules": 24,
     "db_size_mb": 0,
-    "known_gaps": 4,
-    "gaps_planned": 4
+    "known_gaps": 3,
+    "gaps_planned": 3
   }
 }

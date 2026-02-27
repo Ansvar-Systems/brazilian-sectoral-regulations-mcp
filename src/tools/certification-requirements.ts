@@ -1,6 +1,6 @@
 import type { Db } from './common.js';
 import type { ToolResponse } from '../utils/metadata.js';
-import { generateResponseMetadata } from '../utils/metadata.js';
+import { buildMeta } from '../utils/metadata.js';
 
 interface CertificationInput {
   sector: string;
@@ -60,6 +60,6 @@ export function getCertificationRequirements(
       total: rows.length,
       certifications: rows,
     },
-    _metadata: generateResponseMetadata(builtAt),
+    _metadata: buildMeta(),
   };
 }

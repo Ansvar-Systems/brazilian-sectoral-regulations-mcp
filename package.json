@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "description": "Brazilian sectoral regulations MCP — ANATEL, ANS, ANVISA, ANEEL, and ANAC cybersecurity and compliance requirements",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "bin": {
-    "brazilian-sectoral-regulations-mcp": "dist/index.js"
+    "brazilian-sectoral-regulations-mcp": "dist/src/index.js"
   },
   "files": [
     "dist",
@@ -15,7 +15,7 @@
     "build": "tsc",
     "build:db": "tsx scripts/build-db.ts",
     "dev": "tsx src/index.ts",
-    "start": "node dist/index.js",
+    "start": "node dist/src/index.js",
     "test": "vitest run",
     "test:contract": "vitest run __tests__/contract/",
     "ingest": "tsx scripts/ingest.ts",
@@ -25,11 +25,13 @@
   },
   "dependencies": {
     "@ansvar/mcp-sqlite": "^1.0.0",
-    "@modelcontextprotocol/sdk": "^1.12.1"
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "better-sqlite3": "^12.6.2"
   },
   "devDependencies": {
-    "@vercel/node": "^5.6.6",
+    "@types/better-sqlite3": "^7.6.13",
     "@types/node": "^22.15.29",
+    "@vercel/node": "^5.6.6",
     "@vitest/coverage-v8": "^3.0.0",
     "tsx": "^4.21.0",
     "typescript": "^5.7.0",

@@ -66,12 +66,29 @@ export function clampLimit(input: number | undefined, max = 50, fallback = 10): 
   return Math.floor(input);
 }
 
-/** Escape special FTS5 characters in user input. */
-export function escapeFTS5Query(raw: string): string {
-  return raw
-    .replace(/[*"():^{}[\]~\\]/g, ' ')
-    .replace(/\s+/g, ' ')
+/**
+ * Build a robust FTS5 query from user input.
+ * - Strips FTS5 special chars
+ * - Adds prefix matching (word*) for cross-language partial matching
+ * - Returns null for empty/whitespace-only input
+ */
+export function buildFtsQuery(raw: string): string | null {
+  const cleaned = raw
+    .replace(/["\*\(\)\{\}\[\]:^~!@#$%&|\\<>=;,]/g, ' ')
+    .replace(/\b(AND|OR|NOT|NEAR)\b/gi, '')
     .trim();
+
+  if (!cleaned) return null;
+
+  const tokens = cleaned.split(/\s+/).filter(t => t.length > 0);
+  if (tokens.length === 0) return null;
+
+  return tokens.map(t => `"${t}"*`).join(' ');
+}
+
+/** @deprecated Use buildFtsQuery instead */
+export function escapeFTS5Query(raw: string): string {
+  return buildFtsQuery(raw) ?? '';
 }
 
 /** Calculate number of days since a date string. */

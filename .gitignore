@@ -1,9 +1,11 @@
 node_modules/
 dist/
 *.db
+!data/database.db
 data/source/
 .env
 .env.local
 coverage/
 .DS_Store
 *.tgz
+.vercel

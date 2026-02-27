@@ -1,6 +1,6 @@
 import type { Db } from './common.js';
 import type { ToolResponse } from '../utils/metadata.js';
-import { generateResponseMetadata } from '../utils/metadata.js';
+import { buildMeta } from '../utils/metadata.js';
 
 interface IncidentReportingInput {
   sector: string;
@@ -49,6 +49,6 @@ export function getIncidentReportingRules(
       total: rows.length,
       rules: rows,
     },
-    _metadata: generateResponseMetadata(builtAt),
+    _metadata: buildMeta(),
   };
 }

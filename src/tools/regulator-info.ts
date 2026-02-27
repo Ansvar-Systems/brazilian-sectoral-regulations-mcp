@@ -1,6 +1,6 @@
 import type { Db } from './common.js';
 import type { ToolResponse } from '../utils/metadata.js';
-import { generateResponseMetadata } from '../utils/metadata.js';
+import { buildMeta } from '../utils/metadata.js';
 
 interface RegulatorInfoInput {
   sector: string;
@@ -58,6 +58,6 @@ export function getRegulatorInfo(
       regulation_count: regulationCount,
       provision_count: provisionCount,
     },
-    _metadata: generateResponseMetadata(builtAt),
+    _metadata: buildMeta(),
   };
 }

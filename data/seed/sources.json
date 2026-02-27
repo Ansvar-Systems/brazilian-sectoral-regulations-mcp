@@ -1,0 +1,52 @@
+[
+  {
+    "id": "anatel",
+    "full_name": "ANATEL - Sistema de Normas e Regulamentos",
+    "authority": "ANATEL",
+    "jurisdiction": "Brazil",
+    "source_url": "https://www.anatel.gov.br/legislacao/",
+    "last_fetched": "2026-02-27",
+    "last_updated": "2026-02-27",
+    "item_count": 0
+  },
+  {
+    "id": "ans",
+    "full_name": "ANS - Legislação e Normas",
+    "authority": "ANS",
+    "jurisdiction": "Brazil",
+    "source_url": "https://www.ans.gov.br/legislacao",
+    "last_fetched": "2026-02-27",
+    "last_updated": "2026-02-27",
+    "item_count": 0
+  },
+  {
+    "id": "anvisa",
+    "full_name": "ANVISA - Legislação e Regulamentação",
+    "authority": "ANVISA",
+    "jurisdiction": "Brazil",
+    "source_url": "https://www.anvisa.gov.br/legislacao/",
+    "last_fetched": "2026-02-27",
+    "last_updated": "2026-02-27",
+    "item_count": 0
+  },
+  {
+    "id": "aneel",
+    "full_name": "ANEEL - Biblioteca Virtual e Normas",
+    "authority": "ANEEL",
+    "jurisdiction": "Brazil",
+    "source_url": "https://www.aneel.gov.br/biblioteca-virtual",
+    "last_fetched": "2026-02-27",
+    "last_updated": "2026-02-27",
+    "item_count": 0
+  },
+  {
+    "id": "anac",
+    "full_name": "ANAC - Regulamentos Brasileiros de Aviação Civil",
+    "authority": "ANAC",
+    "jurisdiction": "Brazil",
+    "source_url": "https://www.anac.gov.br/legislacao",
+    "last_fetched": "2026-02-27",
+    "last_updated": "2026-02-27",
+    "item_count": 0
+  }
+]

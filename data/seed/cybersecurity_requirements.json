@@ -1,0 +1,275 @@
+[
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "requirement": "Elaborar, implementar e manter Política de Segurança Cibernética compatível com o porte e perfil de risco da prestadora, incluindo objetivos de segurança, controles para redução de vulnerabilidades e tratamento de incidentes.",
+    "legal_basis": "Resolução nº 740/2020, Art. 4",
+    "category": "security_policy"
+  },
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "requirement": "Implementar mecanismos de criptografia e controle de acesso lógico para proteção das informações em trânsito e armazenadas, incluindo autenticação multifator para sistemas críticos e segregação de funções.",
+    "legal_basis": "Resolução nº 740/2020, Art. 7",
+    "category": "access_control"
+  },
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "requirement": "Implementar processo de gestão de riscos com identificação de ativos críticos, avaliação periódica de ameaças, medidas de mitigação e revisão em prazo não superior a 12 meses.",
+    "legal_basis": "Resolução nº 740/2020, Art. 5",
+    "category": "risk_management"
+  },
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "requirement": "Notificar a Anatel no prazo máximo de 24 horas sobre incidentes de segurança cibernética que afetem substancialmente a segurança das redes, proteção de dados pessoais ou prestação de serviços.",
+    "legal_basis": "Resolução nº 740/2020, Art. 6",
+    "category": "incident_response"
+  },
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "requirement": "Elaborar e manter Plano de Resposta a Incidentes contendo estrutura organizacional, procedimentos de contenção e recuperação, classificação de gravidade e preservação de evidências.",
+    "legal_basis": "Resolução nº 740/2020, Art. 10",
+    "category": "incident_response"
+  },
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "requirement": "Avaliar riscos de segurança cibernética na cadeia de suprimentos, verificando origem dos equipamentos, existência de backdoors, capacidade de atualização e conformidade com padrões internacionais.",
+    "legal_basis": "Resolução nº 740/2020, Art. 8",
+    "category": "supply_chain"
+  },
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "requirement": "Promover programa de capacitação e conscientização em segurança cibernética com treinamento periódico, simulações de incidentes e avaliação de eficácia.",
+    "legal_basis": "Resolução nº 740/2020, Art. 9",
+    "category": "training"
+  },
+  {
+    "regulator_id": "ANATEL",
+    "sector": "telecom",
+    "requirement": "Equipamentos de telecomunicações submetidos à homologação devem atender a requisitos de segurança cibernética, incluindo atualização segura de firmware, proteção contra acesso não autorizado e ausência de senhas padrão.",
+    "legal_basis": "Ato nº 77/2021, Art. 1",
+    "category": "equipment_security"
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "requirement": "Implementar o componente de segurança e privacidade do Padrão TISS com autenticação, criptografia TLS 1.2+, assinatura digital, controle de acesso por perfis e registro de auditoria.",
+    "legal_basis": "RN nº 443/2019, Art. 5",
+    "category": "data_protection"
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "requirement": "Notificar a ANS sobre incidentes de segurança que comprometam dados de beneficiários no prazo de 48 horas, incluindo natureza do incidente, dados afetados e medidas de contenção.",
+    "legal_basis": "RN nº 443/2019, Art. 12",
+    "category": "incident_response"
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "requirement": "Manter Política de Segurança da Informação aprovada pela diretoria, abrangendo classificação de informações, gestão de acessos, segurança física, gestão de incidentes e conformidade legal.",
+    "legal_basis": "RN nº 507/2022, Art. 3",
+    "category": "security_policy"
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "requirement": "Manter Plano de Continuidade de Negócios com RTO máximo de 4 horas para sistemas assistenciais, RPO máximo de 1 hora, e testes no mínimo semestrais.",
+    "legal_basis": "RN nº 507/2022, Art. 7",
+    "category": "business_continuity"
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "requirement": "Operadoras com mais de 100.000 beneficiários devem realizar auditoria independente de segurança da informação anualmente, incluindo testes de penetração em sistemas expostos.",
+    "legal_basis": "RN nº 507/2022, Art. 10",
+    "category": "audit"
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "requirement": "Implementar medidas de proteção de dados pessoais sensíveis de saúde conforme LGPD, incluindo mapeamento de dados, avaliação de impacto, anonimização e controles de acesso granulares.",
+    "legal_basis": "RN nº 452/2020, Art. 9",
+    "category": "data_protection"
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "requirement": "Garantir criptografia ponta a ponta em plataformas de telemedicina, autenticação segura de profissionais e beneficiários, e disponibilidade mínima de 99,5%.",
+    "legal_basis": "RN nº 452/2020, Art. 6",
+    "category": "encryption"
+  },
+  {
+    "regulator_id": "ANS",
+    "sector": "health_insurance",
+    "requirement": "Manter registros eletrônicos de dados assistenciais com trilha de auditoria completa, prazo de retenção mínimo de 20 anos para prontuários e formato que permita portabilidade.",
+    "legal_basis": "RN nº 389/2015, Art. 4",
+    "category": "data_retention"
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "requirement": "Dispositivos médicos conectados e SaMD classes II-IV devem apresentar documentação de cibersegurança no registro, incluindo modelo de ameaças, arquitetura de segurança e resultados de testes de penetração.",
+    "legal_basis": "IN nº 169/2022, Art. 3",
+    "category": "security_by_design"
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "requirement": "Implementar criptografia TLS 1.2+ para dados em trânsito, criptografia de dados de saúde em repouso e autenticação mútua em comunicações máquina-a-máquina.",
+    "legal_basis": "IN nº 169/2022, Art. 5",
+    "category": "encryption"
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "requirement": "Manter processo de gestão de vulnerabilidades com monitoramento contínuo, SBOM atualizado, prazo máximo de 90 dias para correção de vulnerabilidades críticas e comunicação coordenada.",
+    "legal_basis": "IN nº 169/2022, Art. 7",
+    "category": "vulnerability_management"
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "requirement": "Fornecer plano de atualização de segurança especificando período de suporte, mecanismo seguro de distribuição, capacidade de rollback e validação pós-atualização.",
+    "legal_basis": "IN nº 169/2022, Art. 9",
+    "category": "patch_management"
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "requirement": "Seguir processo de desenvolvimento conforme IEC 62304, gestão de riscos conforme ISO 14971, e manter rastreabilidade de requisitos para software de dispositivos médicos.",
+    "legal_basis": "RDC nº 665/2022, Art. 15",
+    "category": "secure_development"
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "requirement": "Implementar sistema de vigilância pós-mercado que inclua monitoramento de vulnerabilidades, processo de notificação de atualizações, canal de relato de incidentes e plano de descontinuação.",
+    "legal_basis": "RDC nº 665/2022, Art. 22",
+    "category": "post_market_surveillance"
+  },
+  {
+    "regulator_id": "ANVISA",
+    "sector": "health_pharma",
+    "requirement": "Validar sistemas computadorizados utilizados em atividades reguladas conforme princípios ALCOA+ (Atribuível, Legível, Contemporâneo, Original, Acurado, Completo, Consistente, Durável, Disponível).",
+    "legal_basis": "RDC nº 546/2021, Art. 3 e Art. 8",
+    "category": "data_integrity"
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "requirement": "Elaborar Política de Segurança Cibernética contemplando proteção de ativos TI e TO, gestão de identidades, segurança de redes SCADA/ICS, monitoramento de intrusões e gestão de incidentes.",
+    "legal_basis": "REN nº 964/2021, Art. 3",
+    "category": "security_policy"
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "requirement": "Implementar segmentação de redes TI e TO, controle de acesso a sistemas SCADA/ICS, monitoramento de tráfego industrial, restrição de conexões remotas e gestão de firmware de dispositivos industriais.",
+    "legal_basis": "REN nº 964/2021, Art. 5",
+    "category": "ot_security"
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "requirement": "Notificar incidentes cibernéticos com impacto operacional ao CERT setorial e ANEEL em até 1 hora, e incidentes sem impacto operacional em até 24 horas.",
+    "legal_basis": "REN nº 964/2021, Art. 7",
+    "category": "incident_response"
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "requirement": "Realizar exercícios de simulação de incidentes cibernéticos: tabletop semestrais, exercícios técnicos anuais e exercícios coordenados conforme convocação do CERT setorial.",
+    "legal_basis": "REN nº 964/2021, Art. 9",
+    "category": "incident_response"
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "requirement": "Implementar segurança cibernética em medidores inteligentes: autenticação forte, criptografia AES-128+, assinatura digital, detecção de adulteração e atualização remota segura.",
+    "legal_basis": "REN nº 1000/2021, Art. 4",
+    "category": "smart_grid_security"
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "requirement": "Proteger dados de consumo coletados por medidores inteligentes conforme LGPD, com criptografia, acesso restrito, prazo de retenção definido e direito de acesso do consumidor.",
+    "legal_basis": "REN nº 1000/2021, Art. 7",
+    "category": "data_protection"
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "requirement": "Apresentar relatório anual de conformidade com política de segurança cibernética, resultados de auditorias e indicadores de maturidade conforme modelo da ANEEL.",
+    "legal_basis": "REN nº 964/2021, Art. 11",
+    "category": "compliance_reporting"
+  },
+  {
+    "regulator_id": "ANEEL",
+    "sector": "energy",
+    "requirement": "Implementar arquitetura de segurança em camadas para infraestrutura de medição avançada, incluindo gestão de chaves com HSM, certificados ICP-Brasil e proteção contra DoS.",
+    "legal_basis": "PRODIST Módulo 14, Seção 14.3",
+    "category": "infrastructure_security"
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "requirement": "Desenvolver, implementar e manter Programa de Segurança de Aeródromo incluindo proteção de sistemas eletrônicos de segurança contra intrusão cibernética.",
+    "legal_basis": "RBAC 107, 107.11",
+    "category": "security_policy"
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "requirement": "Implementar sistemas de controle de acesso com biometria ou certificado digital, registro de auditoria por 5 anos, revogação imediata de credenciais e proteção contra ataques cibernéticos.",
+    "legal_basis": "RBAC 107, 107.15",
+    "category": "access_control"
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "requirement": "Segregar sistemas de TI críticos de redes corporativas e internet, implementar autenticação forte, manter backups remotos e avaliar vulnerabilidades trimestralmente.",
+    "legal_basis": "RBAC 107, 107.19",
+    "category": "network_security"
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "requirement": "Realizar avaliação de risco cibernético aeroportuário incluindo mapeamento de ativos TI/TO, interdependências, ameaças setoriais e impacto na segurança da aviação, com revisão anual.",
+    "legal_basis": "IS 107-001, 5.1",
+    "category": "risk_management"
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "requirement": "Proteger sistemas de tecnologia operacional aeroportuários com inventário de dispositivos, segmentação de rede OT/TI, monitoramento de anomalias e VPN com MFA para acesso remoto.",
+    "legal_basis": "IS 107-001, 5.3",
+    "category": "ot_security"
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "requirement": "Manter plano de resposta a incidentes cibernéticos integrado ao plano de emergência do aeródromo, com equipe treinada, comunicação com CERT.br e procedimentos de fallback manual.",
+    "legal_basis": "IS 107-001, 5.5",
+    "category": "incident_response"
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "requirement": "Implementar controles de segurança cibernética para EFB, sistemas de despacho, manutenção aeronáutica e sistemas de entretenimento de bordo segregados de sistemas aviônicos.",
+    "legal_basis": "RBAC 108, 108.15",
+    "category": "aviation_systems_security"
+  },
+  {
+    "regulator_id": "ANAC",
+    "sector": "aviation",
+    "requirement": "Proteger dados PNR e API de passageiros com criptografia em repouso e trânsito, controle de acesso a sistemas de reserva, retenção conforme prazos legais e notificação de incidentes.",
+    "legal_basis": "RBAC 108, 108.11",
+    "category": "data_protection"
+  }
+]
