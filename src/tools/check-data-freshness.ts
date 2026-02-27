@@ -1,6 +1,6 @@
 import type { Db } from './common.js';
 import type { ToolResponse } from '../utils/metadata.js';
-import { generateResponseMetadata } from '../utils/metadata.js';
+import { buildMeta } from '../utils/metadata.js';
 import { daysSince } from './common.js';
 
 interface SourceFreshness {
@@ -74,6 +74,6 @@ export function checkDataFreshness(db: Db): ToolResponse<FreshnessResult> {
       overall_status: overallStatus,
       stale_count: staleCount,
     },
-    _metadata: generateResponseMetadata(builtAt ?? undefined),
+    _metadata: buildMeta(),
   };
 }

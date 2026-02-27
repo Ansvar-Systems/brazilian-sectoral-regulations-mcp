@@ -1,6 +1,6 @@
 import type { Db } from './common.js';
 import type { ToolResponse } from '../utils/metadata.js';
-import { generateResponseMetadata } from '../utils/metadata.js';
+import { buildMeta } from '../utils/metadata.js';
 
 interface GetProvisionInput {
   regulator: string;
@@ -65,12 +65,12 @@ export function getProvision(
       results: {
         error: `Provision not found: ${input.regulator} ${input.regulation_id} Art. ${input.article}`,
       },
-      _metadata: generateResponseMetadata(builtAt),
+      _metadata: buildMeta(),
     };
   }
 
   return {
     results: row,
-    _metadata: generateResponseMetadata(builtAt),
+    _metadata: buildMeta(),
   };
 }

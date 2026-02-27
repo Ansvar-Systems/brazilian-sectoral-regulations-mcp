@@ -1,6 +1,6 @@
 import type { Db } from './common.js';
 import type { ToolResponse } from '../utils/metadata.js';
-import { generateResponseMetadata } from '../utils/metadata.js';
+import { buildMeta } from '../utils/metadata.js';
 import { clampLimit, buildFtsQuery } from './common.js';
 
 interface SearchInput {
@@ -47,7 +47,7 @@ export function searchRegulations(
         provisions: [],
         message: 'Query is empty or contains only special characters.',
       },
-      _metadata: generateResponseMetadata(),
+      _metadata: buildMeta(),
     };
   }
 
@@ -97,6 +97,6 @@ export function searchRegulations(
       total: rows.length,
       provisions: rows,
     },
-    _metadata: generateResponseMetadata(builtAt),
+    _metadata: buildMeta(),
   };
 }

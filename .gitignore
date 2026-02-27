@@ -8,3 +8,4 @@ data/source/
 coverage/
 .DS_Store
 *.tgz
+.vercel

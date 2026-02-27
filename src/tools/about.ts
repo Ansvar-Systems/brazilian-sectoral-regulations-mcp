@@ -1,6 +1,6 @@
 import type { Db } from './common.js';
 import type { ToolResponse } from '../utils/metadata.js';
-import { generateResponseMetadata } from '../utils/metadata.js';
+import { buildMeta } from '../utils/metadata.js';
 import { REGULATORS } from './common.js';
 
 interface AboutInfo {
@@ -66,6 +66,6 @@ export function about(db: Db): ToolResponse<AboutInfo> {
       capabilities,
       built_at: builtAt,
     },
-    _metadata: generateResponseMetadata(builtAt ?? undefined),
+    _metadata: buildMeta(),
   };
 }

@@ -1,6 +1,6 @@
 import type { Db } from './common.js';
 import type { ToolResponse } from '../utils/metadata.js';
-import { generateResponseMetadata } from '../utils/metadata.js';
+import { buildMeta } from '../utils/metadata.js';
 
 interface SourceRow {
   id: string;
@@ -56,6 +56,6 @@ export function listSources(db: Db): ToolResponse<ListSourcesResult> {
         applicability_rules: count('applicability_rules'),
       },
     },
-    _metadata: generateResponseMetadata(builtAt),
+    _metadata: buildMeta(),
   };
 }

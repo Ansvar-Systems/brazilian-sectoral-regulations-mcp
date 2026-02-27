@@ -1,6 +1,6 @@
 import type { Db } from './common.js';
 import type { ToolResponse } from '../utils/metadata.js';
-import { generateResponseMetadata } from '../utils/metadata.js';
+import { buildMeta } from '../utils/metadata.js';
 
 interface ApplicabilityInput {
   sector: string;
@@ -52,7 +52,7 @@ export function checkApplicability(
         total_matches: 0,
         note: 'No meaningful keywords extracted from the activity description.',
       },
-      _metadata: generateResponseMetadata(builtAt),
+      _metadata: buildMeta(),
     };
   }
 
@@ -86,6 +86,6 @@ export function checkApplicability(
         'This is indicative, not definitive. Consult a qualified regulatory specialist ' +
         'for a binding applicability determination.',
     },
-    _metadata: generateResponseMetadata(builtAt),
+    _metadata: buildMeta(),
   };
 }
